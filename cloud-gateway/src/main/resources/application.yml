@@ -1,0 +1,61 @@
+server:
+  port: 4002
+
+spring:
+  application:
+    name: API-GATEWAY
+  cloud:
+    gateway:
+      routes:
+        - id: CUSTOMER-SERVICE
+          uri: lb://CUSTOMER-SERVICE
+          predicates:
+            - Path=/customer/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: CUSTOMER-SERVICE
+                fallbackuri: forward:/customerServiceFallBack
+        - id: FARMER-SERVICE
+          uri: lb://FARMER-SERVICE
+          predicates:
+            - Path=/farmer/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: FARMER-SERVICE
+                fallbackuri: forward:/farmerServiceFallBack
+        - id: SECURITY-SERVICE
+          uri: lb://SECURITY-SERVICE
+          predicates:
+            - Path=/security/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: SECURITY-SERVICE
+                fallbackuri: forward:/securityServiceFallBack
+
+hystrix:
+  command:
+    fallbackcmd:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 4000
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
+
+#eureka:
+ # instance:
+ #  preferIpAddress: true
+  #  hostname: eureka-0
+  #client:
+  # registerWithEureka: true
+  # fetchRegistry: true
+  #  serviceUrl:
+  #    defaultZone: http://eureka-0.eureka.default.svc.cluster.local:8761/eureka

@@ -1,0 +1,20 @@
+2023-02-06 16:17:38 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m11s335ms491µs).
+2023-02-06 16:22:38 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-06 16:27:38 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-06 16:32:38 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-06 16:37:38 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-06 16:39:45 [http-nio-4001-exec-5] INFO  : Inside the ProductService and getProductProduct Method
+2023-02-06 16:40:34 [http-nio-4001-exec-8] INFO  : Inside the FarmerService and getProductDetailUsingFarmer Method
+2023-02-06 16:41:00 [http-nio-4001-exec-8] WARN  : Resolved [com.ust.kishon.Exception.FarmerNotFoundException: Farmer not found with Id : 100]
+2023-02-06 16:41:26 [http-nio-4001-exec-10] WARN  : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.ust.kishon.Controller.ProductController
+2023-02-06 16:41:34 [http-nio-4001-exec-10] WARN  : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.ust.kishon.Controller.FarmerController
+2023-02-06 16:41:37 [http-nio-4001-exec-10] INFO  : Init duration for springdoc-openapi is: 29244 ms
+2023-02-06 16:41:54 [http-nio-4001-exec-6] INFO  : Inside the FarmerService and getProductDetailUsingFarmer Method
+2023-02-06 16:41:54 [http-nio-4001-exec-6] WARN  : Resolved [com.ust.kishon.Exception.FarmerNotFoundException: Farmer not found with Id : 100]
+2023-02-06 16:42:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-06 16:47:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-06 16:52:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-06 16:57:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-06 17:02:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-06 17:07:37 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s387ms278µs100ns).
+2023-02-06 17:07:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration

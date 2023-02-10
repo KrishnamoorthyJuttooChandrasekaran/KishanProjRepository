@@ -1,0 +1,234 @@
+2023-02-03 08:29:08 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s540ms827µs800ns).
+2023-02-03 09:02:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 09:07:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 09:12:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 09:17:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 09:22:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 09:27:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 09:32:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 09:37:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 09:42:55 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 09:47:55 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 09:52:55 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 09:54:25 [SpringApplicationShutdownHook] INFO  : Unregistering application CUSTOMER-SERVICE with eureka with status DOWN
+2023-02-03 09:54:25 [SpringApplicationShutdownHook] INFO  : Saw local status change event StatusChangeEvent [timestamp=1675398265042, current=DOWN, previous=UP]
+2023-02-03 09:54:25 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CUSTOMER-SERVICE/host.docker.internal:CUSTOMER-SERVICE:4000: registering service...
+2023-02-03 09:54:25 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CUSTOMER-SERVICE/host.docker.internal:CUSTOMER-SERVICE:4000 - registration status: 204
+2023-02-03 09:54:31 [SpringApplicationShutdownHook] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-03 09:54:32 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2023-02-03 09:54:32 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
+2023-02-03 09:54:32 [SpringApplicationShutdownHook] INFO  : Shutting down DiscoveryClient ...
+2023-02-03 09:54:35 [SpringApplicationShutdownHook] INFO  : Unregistering ...
+2023-02-03 09:54:35 [SpringApplicationShutdownHook] INFO  : DiscoveryClient_CUSTOMER-SERVICE/host.docker.internal:CUSTOMER-SERVICE:4000 - deregister  status: 200
+2023-02-03 09:54:35 [SpringApplicationShutdownHook] INFO  : Completed shut down of DiscoveryClient
+2023-02-03 09:55:09 [background-preinit] INFO  : HV000001: Hibernate Validator 8.0.0.Final
+2023-02-03 09:55:09 [restartedMain] INFO  : Starting CustomerServiceApplication using Java 17.0.5 with PID 436 (E:\Kishon Project\FinalProjectv4\Customer-Service\target\classes started by ustjavafsdb415 in E:\Kishon Project\FinalProjectv4\Customer-Service)
+2023-02-03 09:55:09 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-02-03 09:55:09 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-03 09:55:09 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-03 09:55:12 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-03 09:55:12 [restartedMain] INFO  : Finished Spring Data repository scanning in 340 ms. Found 1 JPA repository interfaces.
+2023-02-03 09:55:13 [restartedMain] INFO  : BeanFactory id=8cbac053-352e-36d2-962c-ee36bef48215
+2023-02-03 09:55:13 [restartedMain] INFO  : Bean 'com.ust.app.controller.FarmerRestConsumer' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-03 09:55:17 [restartedMain] INFO  : Tomcat initialized with port(s): 4000 (http)
+2023-02-03 09:55:17 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-4000"]
+2023-02-03 09:55:17 [restartedMain] INFO  : Starting service [Tomcat]
+2023-02-03 09:55:17 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-02-03 09:55:18 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2023-02-03 09:55:18 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 8192 ms
+2023-02-03 09:55:19 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-03 09:55:19 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-03 09:55:19 [restartedMain] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-03 09:55:24 [restartedMain] INFO  : HikariPool-1 - Starting...
+2023-02-03 09:55:26 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49559193
+2023-02-03 09:55:26 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2023-02-03 09:55:26 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-03 09:55:26 [restartedMain] WARN  : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-02-03 09:55:28 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-03 09:55:29 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-03 09:55:30 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-03 09:55:30 [restartedMain] WARN  : Unable to start LiveReload server
+2023-02-03 09:55:30 [restartedMain] INFO  : For 'FARMER-SERVICE' URL not provided. Will try picking an instance via load-balancing.
+2023-02-03 09:55:31 [restartedMain] INFO  : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@235aa9cb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1a2f178a, org.springframework.security.web.context.SecurityContextHolderFilter@7a2db152, org.springframework.security.web.header.HeaderWriterFilter@562c264c, org.springframework.security.web.authentication.logout.LogoutFilter@25c9753, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@13d4aea9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7327dc88, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@557207e7, org.springframework.security.web.access.ExceptionTranslationFilter@7bc6066b]
+2023-02-03 09:55:38 [restartedMain] INFO  : Eureka HTTP Client uses RestTemplate.
+2023-02-03 09:55:39 [restartedMain] WARN  : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-03 09:55:39 [restartedMain] INFO  : Setting initial instance status as: STARTING
+2023-02-03 09:55:39 [restartedMain] INFO  : Initializing Eureka in region us-east-1
+2023-02-03 09:55:39 [restartedMain] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 09:55:39 [restartedMain] INFO  : Disable delta property : false
+2023-02-03 09:55:39 [restartedMain] INFO  : Single vip registry refresh property : null
+2023-02-03 09:55:39 [restartedMain] INFO  : Force full registry fetch : false
+2023-02-03 09:55:39 [restartedMain] INFO  : Application is null : false
+2023-02-03 09:55:39 [restartedMain] INFO  : Registered Applications size is zero : true
+2023-02-03 09:55:39 [restartedMain] INFO  : Application version is -1: true
+2023-02-03 09:55:39 [restartedMain] INFO  : Getting all instance registry info from the eureka server
+2023-02-03 09:55:40 [restartedMain] INFO  : The response status is 200
+2023-02-03 09:55:40 [restartedMain] INFO  : Starting heartbeat executor: renew interval is: 30
+2023-02-03 09:55:40 [restartedMain] INFO  : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-02-03 09:55:40 [restartedMain] INFO  : Discovery Client initialized at timestamp 1675398340123 with initial instances count: 4
+2023-02-03 09:55:40 [restartedMain] INFO  : Registering application CUSTOMER-SERVICE with eureka with status UP
+2023-02-03 09:55:40 [restartedMain] INFO  : Saw local status change event StatusChangeEvent [timestamp=1675398340132, current=UP, previous=STARTING]
+2023-02-03 09:55:40 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-4000"]
+2023-02-03 09:55:40 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CUSTOMER-SERVICE/host.docker.internal:CUSTOMER-SERVICE:4000: registering service...
+2023-02-03 09:55:40 [restartedMain] INFO  : Tomcat started on port(s): 4000 (http) with context path ''
+2023-02-03 09:55:40 [restartedMain] INFO  : Updating port to 4000
+2023-02-03 09:55:40 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CUSTOMER-SERVICE/host.docker.internal:CUSTOMER-SERVICE:4000 - registration status: 204
+2023-02-03 09:55:40 [restartedMain] INFO  : Started CustomerServiceApplication in 31.496 seconds (process running for 32.514)
+2023-02-03 10:00:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 10:05:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 10:10:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 10:15:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 10:20:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 10:25:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 10:30:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 10:35:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 10:40:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 10:45:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 10:50:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 10:55:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 11:00:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 11:05:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 11:10:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 11:15:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 11:20:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 11:25:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 11:30:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 11:35:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 11:40:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 11:45:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 11:50:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 11:55:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 12:00:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 12:05:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 12:10:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 12:15:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 12:20:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 12:25:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 12:30:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 12:35:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 12:40:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 12:42:44 [http-nio-4000-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-03 12:42:44 [http-nio-4000-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2023-02-03 12:42:44 [http-nio-4000-exec-1] INFO  : Completed initialization in 356 ms
+2023-02-03 12:42:45 [http-nio-4000-exec-1] ERROR : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.ust.app.entity.Customer.getEmailId()" because the return value of "com.ust.app.model.CartDetails.getCustomer()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.ust.app.entity.Customer.getEmailId()" because the return value of "com.ust.app.model.CartDetails.getCustomer()" is null
+	at com.ust.app.controller.CustomerController.viewCart(CustomerController.java:129)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1010)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:902)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:884)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:351)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-03 12:45:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 12:50:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 12:55:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 13:00:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 13:05:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 13:10:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 13:15:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 13:20:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 13:25:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 13:30:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 13:35:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 13:40:40 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 13:45:41 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 17:48:44 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 17:53:44 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 17:58:44 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 18:03:44 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 18:08:45 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 18:13:45 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 18:18:45 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 18:23:45 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 18:28:45 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 18:33:45 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 18:38:45 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 18:43:45 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 18:48:45 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 18:53:45 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 18:58:45 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 19:44:25 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 19:49:25 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 19:54:25 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 19:59:26 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 20:04:26 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 20:09:26 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 20:14:51 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-02-03 20:14:52 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m11s434ms144µs900ns).
