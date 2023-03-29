@@ -1,0 +1,36 @@
+server:
+  port: 4002
+
+spring:
+  application:
+    name: API-GATEWAY
+
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lowerCaseServiceId: true
+      routes:
+        - id : FARMER-SERVICE
+          uri : lb://FARMER-SERVICE
+          predicates:
+            - Path=/farmer/**
+
+
+        - id: CUSTOMER-SERVICE
+          uri: lb://CUSTOMER-SERVICE
+          predicates:
+            - Path=/customer/**
+
+        - id : SECURITY-SERVICE
+          uri : lb://SECURITY-SERVICE
+          predicates:
+            - Path=/security/**
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka

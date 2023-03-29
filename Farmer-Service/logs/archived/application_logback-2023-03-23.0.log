@@ -1,0 +1,566 @@
+2023-03-23 12:47:28 [background-preinit] INFO  : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-23 12:47:28 [restartedMain] INFO  : Starting FarmerServiceApplication using Java 17.0.1 with PID 7292 (C:\Java_Workspace\KishanProjRepository\Farmer-Service\target\classes started by 233107 in C:\Java_Workspace\KishanProjRepository\Farmer-Service)
+2023-03-23 12:47:28 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-03-23 12:47:28 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-23 12:47:28 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-23 12:47:29 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-23 12:47:30 [restartedMain] INFO  : Finished Spring Data repository scanning in 144 ms. Found 2 JPA repository interfaces.
+2023-03-23 12:47:30 [restartedMain] INFO  : BeanFactory id=e8c548ff-03c6-3d0e-b304-4271003107e9
+2023-03-23 12:47:31 [restartedMain] INFO  : Tomcat initialized with port(s): 4001 (http)
+2023-03-23 12:47:31 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-4001"]
+2023-03-23 12:47:31 [restartedMain] INFO  : Starting service [Tomcat]
+2023-03-23 12:47:31 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-03-23 12:47:31 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2023-03-23 12:47:31 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 2505 ms
+2023-03-23 12:47:31 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-23 12:47:31 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-23 12:47:31 [restartedMain] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-23 12:47:31 [restartedMain] INFO  : HikariPool-1 - Starting...
+2023-03-23 12:47:32 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a974022
+2023-03-23 12:47:32 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2023-03-23 12:47:32 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-03-23 12:47:32 [restartedMain] WARN  : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-03-23 12:47:33 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-23 12:47:33 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-23 12:47:33 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-23 12:47:34 [restartedMain] INFO  : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@535f5522, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3fdcc3b7, org.springframework.security.web.context.SecurityContextHolderFilter@3ad71375, org.springframework.security.web.header.HeaderWriterFilter@3cd58032, org.springframework.security.web.authentication.logout.LogoutFilter@2f70897c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@41a6a5e7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3fc7c2fb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45db5c34, org.springframework.security.web.access.ExceptionTranslationFilter@734bfa09]
+2023-03-23 12:47:35 [restartedMain] WARN  : Unable to start LiveReload server
+2023-03-23 12:47:36 [restartedMain] INFO  : Eureka HTTP Client uses RestTemplate.
+2023-03-23 12:47:36 [restartedMain] WARN  : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-23 12:47:36 [restartedMain] INFO  : Setting initial instance status as: STARTING
+2023-03-23 12:47:36 [restartedMain] INFO  : Initializing Eureka in region us-east-1
+2023-03-23 12:47:36 [restartedMain] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 12:47:36 [restartedMain] INFO  : Disable delta property : false
+2023-03-23 12:47:36 [restartedMain] INFO  : Single vip registry refresh property : null
+2023-03-23 12:47:36 [restartedMain] INFO  : Force full registry fetch : false
+2023-03-23 12:47:36 [restartedMain] INFO  : Application is null : false
+2023-03-23 12:47:36 [restartedMain] INFO  : Registered Applications size is zero : true
+2023-03-23 12:47:36 [restartedMain] INFO  : Application version is -1: true
+2023-03-23 12:47:36 [restartedMain] INFO  : Getting all instance registry info from the eureka server
+2023-03-23 12:47:37 [restartedMain] INFO  : The response status is 200
+2023-03-23 12:47:37 [restartedMain] INFO  : Starting heartbeat executor: renew interval is: 30
+2023-03-23 12:47:37 [restartedMain] INFO  : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-03-23 12:47:37 [restartedMain] INFO  : Discovery Client initialized at timestamp 1679555857135 with initial instances count: 1
+2023-03-23 12:47:37 [restartedMain] INFO  : Registering application FARMER-SERVICE with eureka with status UP
+2023-03-23 12:47:37 [restartedMain] INFO  : Saw local status change event StatusChangeEvent [timestamp=1679555857142, current=UP, previous=STARTING]
+2023-03-23 12:47:37 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001: registering service...
+2023-03-23 12:47:37 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-4001"]
+2023-03-23 12:47:37 [restartedMain] INFO  : Tomcat started on port(s): 4001 (http) with context path ''
+2023-03-23 12:47:37 [restartedMain] INFO  : Updating port to 4001
+2023-03-23 12:47:37 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001 - registration status: 204
+2023-03-23 12:47:37 [restartedMain] INFO  : Started FarmerServiceApplication in 9.553 seconds (process running for 10.075)
+2023-03-23 12:52:36 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 12:53:54 [SpringApplicationShutdownHook] INFO  : Unregistering application FARMER-SERVICE with eureka with status DOWN
+2023-03-23 12:53:54 [SpringApplicationShutdownHook] INFO  : Saw local status change event StatusChangeEvent [timestamp=1679556234998, current=DOWN, previous=UP]
+2023-03-23 12:53:54 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001: registering service...
+2023-03-23 12:53:55 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001 - registration status: 204
+2023-03-23 12:53:55 [SpringApplicationShutdownHook] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-23 12:53:55 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2023-03-23 12:53:55 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
+2023-03-23 12:53:55 [SpringApplicationShutdownHook] INFO  : Shutting down DiscoveryClient ...
+2023-03-23 12:53:58 [SpringApplicationShutdownHook] INFO  : Unregistering ...
+2023-03-23 12:53:58 [SpringApplicationShutdownHook] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001 - deregister  status: 200
+2023-03-23 12:53:58 [SpringApplicationShutdownHook] INFO  : Completed shut down of DiscoveryClient
+2023-03-23 12:55:32 [background-preinit] INFO  : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-23 12:55:32 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-23 12:55:33 [restartedMain] WARN  : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationPropertiesBeans' defined in class path resource [org/springframework/cloud/autoconfigure/ConfigurationPropertiesRebinderAutoConfiguration.class]: Post-processing of merged bean definition failed
+2023-03-23 12:55:33 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-23 12:55:33 [restartedMain] ERROR : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationPropertiesBeans' defined in class path resource [org/springframework/cloud/autoconfigure/ConfigurationPropertiesRebinderAutoConfiguration.class]: Post-processing of merged bean definition failed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:273)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:568)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:150)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:212)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:117)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:74)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:352)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.ust.kishon.FarmerServiceApplication.main(FarmerServiceApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@1d44bcfa]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.buildPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:444)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:415)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findInjectionMetadata(PersistenceAnnotationBeanPostProcessor.java:369)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(PersistenceAnnotationBeanPostProcessor.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1082)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	... 36 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 43 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 47 common frames omitted
+2023-03-23 12:55:33 [restartedMain] ERROR : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationPropertiesBeans' defined in class path resource [org/springframework/cloud/autoconfigure/ConfigurationPropertiesRebinderAutoConfiguration.class]: Post-processing of merged bean definition failed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:273)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:568)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:150)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:212)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:117)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:74)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:352)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.ust.kishon.FarmerServiceApplication.main(FarmerServiceApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@1d44bcfa]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.buildPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:444)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:415)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findInjectionMetadata(PersistenceAnnotationBeanPostProcessor.java:369)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(PersistenceAnnotationBeanPostProcessor.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1082)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	... 36 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 43 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 47 common frames omitted
+2023-03-23 12:55:48 [background-preinit] INFO  : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-23 12:55:48 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-23 12:55:48 [restartedMain] WARN  : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationPropertiesBeans' defined in class path resource [org/springframework/cloud/autoconfigure/ConfigurationPropertiesRebinderAutoConfiguration.class]: Post-processing of merged bean definition failed
+2023-03-23 12:55:48 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-23 12:55:48 [restartedMain] ERROR : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationPropertiesBeans' defined in class path resource [org/springframework/cloud/autoconfigure/ConfigurationPropertiesRebinderAutoConfiguration.class]: Post-processing of merged bean definition failed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:273)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:568)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:150)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:212)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:117)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:74)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:352)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.ust.kishon.FarmerServiceApplication.main(FarmerServiceApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@1d44bcfa]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.buildPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:444)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:415)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findInjectionMetadata(PersistenceAnnotationBeanPostProcessor.java:369)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(PersistenceAnnotationBeanPostProcessor.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1082)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	... 36 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 43 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 47 common frames omitted
+2023-03-23 12:55:49 [restartedMain] ERROR : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationPropertiesBeans' defined in class path resource [org/springframework/cloud/autoconfigure/ConfigurationPropertiesRebinderAutoConfiguration.class]: Post-processing of merged bean definition failed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:273)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:568)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:150)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:212)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:117)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:74)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:352)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.ust.kishon.FarmerServiceApplication.main(FarmerServiceApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@1d44bcfa]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.buildPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:444)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:415)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findInjectionMetadata(PersistenceAnnotationBeanPostProcessor.java:369)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(PersistenceAnnotationBeanPostProcessor.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1082)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	... 36 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 43 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 47 common frames omitted
+2023-03-23 12:56:45 [background-preinit] INFO  : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-23 12:56:45 [restartedMain] INFO  : Starting FarmerServiceApplication using Java 17.0.1 with PID 12364 (C:\Java_Workspace\KishanProjRepository\Farmer-Service\target\classes started by 233107 in C:\Java_Workspace\KishanProjRepository\Farmer-Service)
+2023-03-23 12:56:45 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-03-23 12:56:45 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-23 12:56:45 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-23 12:56:47 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-23 12:56:47 [restartedMain] INFO  : Finished Spring Data repository scanning in 134 ms. Found 2 JPA repository interfaces.
+2023-03-23 12:56:47 [restartedMain] INFO  : BeanFactory id=e8c548ff-03c6-3d0e-b304-4271003107e9
+2023-03-23 12:56:48 [restartedMain] INFO  : Tomcat initialized with port(s): 4001 (http)
+2023-03-23 12:56:48 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-4001"]
+2023-03-23 12:56:48 [restartedMain] INFO  : Starting service [Tomcat]
+2023-03-23 12:56:48 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-03-23 12:56:48 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2023-03-23 12:56:48 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 2786 ms
+2023-03-23 12:56:48 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-23 12:56:48 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-23 12:56:49 [restartedMain] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-23 12:56:49 [restartedMain] INFO  : HikariPool-1 - Starting...
+2023-03-23 12:56:49 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@158e77e4
+2023-03-23 12:56:49 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2023-03-23 12:56:49 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-03-23 12:56:49 [restartedMain] WARN  : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-03-23 12:56:50 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-23 12:56:50 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-23 12:56:51 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-23 12:56:51 [restartedMain] INFO  : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@75562328, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3daf986, org.springframework.security.web.context.SecurityContextHolderFilter@60c8f5db, org.springframework.security.web.header.HeaderWriterFilter@2e0e9fb, org.springframework.security.web.authentication.logout.LogoutFilter@5bab6df, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@265cce9e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@56abed99, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@38019ba0, org.springframework.security.web.access.ExceptionTranslationFilter@774203fa]
+2023-03-23 12:56:53 [restartedMain] WARN  : Unable to start LiveReload server
+2023-03-23 12:56:53 [restartedMain] INFO  : Eureka HTTP Client uses RestTemplate.
+2023-03-23 12:56:53 [restartedMain] WARN  : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-23 12:56:53 [restartedMain] INFO  : Setting initial instance status as: STARTING
+2023-03-23 12:56:54 [restartedMain] INFO  : Initializing Eureka in region us-east-1
+2023-03-23 12:56:54 [restartedMain] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 12:56:54 [restartedMain] INFO  : Disable delta property : false
+2023-03-23 12:56:54 [restartedMain] INFO  : Single vip registry refresh property : null
+2023-03-23 12:56:54 [restartedMain] INFO  : Force full registry fetch : false
+2023-03-23 12:56:54 [restartedMain] INFO  : Application is null : false
+2023-03-23 12:56:54 [restartedMain] INFO  : Registered Applications size is zero : true
+2023-03-23 12:56:54 [restartedMain] INFO  : Application version is -1: true
+2023-03-23 12:56:54 [restartedMain] INFO  : Getting all instance registry info from the eureka server
+2023-03-23 12:56:54 [restartedMain] INFO  : The response status is 200
+2023-03-23 12:56:54 [restartedMain] INFO  : Starting heartbeat executor: renew interval is: 30
+2023-03-23 12:56:54 [restartedMain] INFO  : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-03-23 12:56:54 [restartedMain] INFO  : Discovery Client initialized at timestamp 1679556414460 with initial instances count: 2
+2023-03-23 12:56:54 [restartedMain] INFO  : Registering application FARMER-SERVICE with eureka with status UP
+2023-03-23 12:56:54 [restartedMain] INFO  : Saw local status change event StatusChangeEvent [timestamp=1679556414465, current=UP, previous=STARTING]
+2023-03-23 12:56:54 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001: registering service...
+2023-03-23 12:56:54 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-4001"]
+2023-03-23 12:56:54 [restartedMain] INFO  : Tomcat started on port(s): 4001 (http) with context path ''
+2023-03-23 12:56:54 [restartedMain] INFO  : Updating port to 4001
+2023-03-23 12:56:54 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001 - registration status: 204
+2023-03-23 12:56:54 [restartedMain] INFO  : Started FarmerServiceApplication in 9.714 seconds (process running for 10.239)
+2023-03-23 13:01:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 13:06:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 13:11:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 13:16:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 13:21:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 13:26:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 13:27:17 [http-nio-4001-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-23 13:27:17 [http-nio-4001-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2023-03-23 13:27:17 [http-nio-4001-exec-1] INFO  : Completed initialization in 2 ms
+2023-03-23 13:31:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 13:36:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 13:41:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 14:23:06 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=40m45s495ms265µs).
+2023-03-23 14:27:09 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 14:32:09 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 14:37:09 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 14:42:09 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 14:47:09 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 14:52:09 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 14:57:09 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 15:00:29 [http-nio-4001-exec-10] WARN  : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.ust.kishon.Controller.ProductController
+2023-03-23 15:00:29 [http-nio-4001-exec-10] WARN  : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.ust.kishon.Controller.FarmerController
+2023-03-23 15:00:29 [http-nio-4001-exec-10] INFO  : Init duration for springdoc-openapi is: 231 ms
+2023-03-23 15:00:37 [http-nio-4001-exec-1] INFO  : Inside the ProductService and getProductProduct Method
+2023-03-23 15:00:41 [http-nio-4001-exec-2] INFO  : Inside the ProductService and getProductProduct Method
+2023-03-23 15:02:09 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 15:06:39 [SpringApplicationShutdownHook] INFO  : Unregistering application FARMER-SERVICE with eureka with status DOWN
+2023-03-23 15:06:39 [SpringApplicationShutdownHook] INFO  : Saw local status change event StatusChangeEvent [timestamp=1679564199470, current=DOWN, previous=UP]
+2023-03-23 15:06:39 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001: registering service...
+2023-03-23 15:06:39 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001 - registration status: 204
+2023-03-23 15:06:39 [SpringApplicationShutdownHook] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-23 15:06:39 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2023-03-23 15:06:39 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
+2023-03-23 15:06:39 [SpringApplicationShutdownHook] INFO  : Shutting down DiscoveryClient ...
+2023-03-23 15:06:42 [SpringApplicationShutdownHook] INFO  : Unregistering ...
+2023-03-23 15:06:42 [SpringApplicationShutdownHook] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001 - deregister  status: 200
+2023-03-23 15:06:42 [SpringApplicationShutdownHook] INFO  : Completed shut down of DiscoveryClient
+2023-03-23 15:07:35 [background-preinit] INFO  : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-23 15:07:35 [restartedMain] INFO  : Starting FarmerServiceApplication using Java 17.0.1 with PID 3712 (C:\Java_Workspace\KishanProjRepository\Farmer-Service\target\classes started by 233107 in C:\Java_Workspace\KishanProjRepository\Farmer-Service)
+2023-03-23 15:07:35 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-03-23 15:07:35 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-23 15:07:35 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-23 15:07:36 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-23 15:07:36 [restartedMain] INFO  : Finished Spring Data repository scanning in 104 ms. Found 2 JPA repository interfaces.
+2023-03-23 15:07:37 [restartedMain] INFO  : BeanFactory id=e8c548ff-03c6-3d0e-b304-4271003107e9
+2023-03-23 15:07:37 [restartedMain] INFO  : Tomcat initialized with port(s): 4001 (http)
+2023-03-23 15:07:37 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-4001"]
+2023-03-23 15:07:37 [restartedMain] INFO  : Starting service [Tomcat]
+2023-03-23 15:07:37 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-03-23 15:07:37 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2023-03-23 15:07:37 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1874 ms
+2023-03-23 15:07:37 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-23 15:07:38 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-23 15:07:38 [restartedMain] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-23 15:07:38 [restartedMain] INFO  : HikariPool-1 - Starting...
+2023-03-23 15:07:38 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f2c2246
+2023-03-23 15:07:38 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2023-03-23 15:07:38 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-03-23 15:07:38 [restartedMain] WARN  : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-03-23 15:07:39 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-23 15:07:39 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-23 15:07:39 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-23 15:07:39 [restartedMain] INFO  : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@26a731ac, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b8ccd0e, org.springframework.security.web.context.SecurityContextHolderFilter@61e2d786, org.springframework.security.web.header.HeaderWriterFilter@41be1ac5, org.springframework.security.web.authentication.logout.LogoutFilter@6a8f5aab, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66ccfddd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e81df23, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@78a20c17, org.springframework.security.web.access.ExceptionTranslationFilter@79239ee5]
+2023-03-23 15:07:40 [restartedMain] WARN  : Unable to start LiveReload server
+2023-03-23 15:07:41 [restartedMain] INFO  : Eureka HTTP Client uses RestTemplate.
+2023-03-23 15:07:41 [restartedMain] WARN  : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-23 15:07:41 [restartedMain] INFO  : Setting initial instance status as: STARTING
+2023-03-23 15:07:41 [restartedMain] INFO  : Initializing Eureka in region us-east-1
+2023-03-23 15:07:41 [restartedMain] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 15:07:41 [restartedMain] INFO  : Disable delta property : false
+2023-03-23 15:07:41 [restartedMain] INFO  : Single vip registry refresh property : null
+2023-03-23 15:07:41 [restartedMain] INFO  : Force full registry fetch : false
+2023-03-23 15:07:41 [restartedMain] INFO  : Application is null : false
+2023-03-23 15:07:41 [restartedMain] INFO  : Registered Applications size is zero : true
+2023-03-23 15:07:41 [restartedMain] INFO  : Application version is -1: true
+2023-03-23 15:07:41 [restartedMain] INFO  : Getting all instance registry info from the eureka server
+2023-03-23 15:07:41 [restartedMain] INFO  : The response status is 200
+2023-03-23 15:07:41 [restartedMain] INFO  : Starting heartbeat executor: renew interval is: 30
+2023-03-23 15:07:41 [restartedMain] INFO  : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-03-23 15:07:41 [restartedMain] INFO  : Discovery Client initialized at timestamp 1679564261856 with initial instances count: 3
+2023-03-23 15:07:41 [restartedMain] INFO  : Registering application FARMER-SERVICE with eureka with status UP
+2023-03-23 15:07:41 [restartedMain] INFO  : Saw local status change event StatusChangeEvent [timestamp=1679564261861, current=UP, previous=STARTING]
+2023-03-23 15:07:41 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001: registering service...
+2023-03-23 15:07:41 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-4001"]
+2023-03-23 15:07:41 [restartedMain] INFO  : Tomcat started on port(s): 4001 (http) with context path ''
+2023-03-23 15:07:41 [restartedMain] INFO  : Updating port to 4001
+2023-03-23 15:07:41 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001 - registration status: 204
+2023-03-23 15:07:42 [restartedMain] INFO  : Started FarmerServiceApplication in 6.755 seconds (process running for 7.278)
+2023-03-23 15:07:54 [http-nio-4001-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-23 15:07:54 [http-nio-4001-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2023-03-23 15:07:54 [http-nio-4001-exec-1] INFO  : Completed initialization in 2 ms
+2023-03-23 15:10:09 [SpringApplicationShutdownHook] INFO  : Unregistering application FARMER-SERVICE with eureka with status DOWN
+2023-03-23 15:10:09 [SpringApplicationShutdownHook] INFO  : Saw local status change event StatusChangeEvent [timestamp=1679564409190, current=DOWN, previous=UP]
+2023-03-23 15:10:09 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001: registering service...
+2023-03-23 15:10:09 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001 - registration status: 204
+2023-03-23 15:10:09 [SpringApplicationShutdownHook] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-23 15:10:09 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2023-03-23 15:10:09 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
+2023-03-23 15:10:09 [SpringApplicationShutdownHook] INFO  : Shutting down DiscoveryClient ...
+2023-03-23 15:10:12 [DiscoveryClient-0] WARN  : task supervisor shutting down, can't accept the task
+2023-03-23 15:10:12 [SpringApplicationShutdownHook] INFO  : Unregistering ...
+2023-03-23 15:10:12 [SpringApplicationShutdownHook] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001 - deregister  status: 200
+2023-03-23 15:10:12 [SpringApplicationShutdownHook] INFO  : Completed shut down of DiscoveryClient
+2023-03-23 15:14:01 [background-preinit] INFO  : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-23 15:14:01 [restartedMain] INFO  : Starting FarmerServiceApplication using Java 17.0.1 with PID 17460 (C:\Java_Workspace\KishanProjRepository\Farmer-Service\target\classes started by 233107 in C:\Java_Workspace\KishanProjRepository\Farmer-Service)
+2023-03-23 15:14:01 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-03-23 15:14:01 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-23 15:14:01 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-23 15:14:02 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-23 15:14:02 [restartedMain] INFO  : Finished Spring Data repository scanning in 107 ms. Found 2 JPA repository interfaces.
+2023-03-23 15:14:02 [restartedMain] INFO  : BeanFactory id=e8c548ff-03c6-3d0e-b304-4271003107e9
+2023-03-23 15:14:03 [restartedMain] INFO  : Tomcat initialized with port(s): 4001 (http)
+2023-03-23 15:14:03 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-4001"]
+2023-03-23 15:14:03 [restartedMain] INFO  : Starting service [Tomcat]
+2023-03-23 15:14:03 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-03-23 15:14:03 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2023-03-23 15:14:03 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 2015 ms
+2023-03-23 15:14:03 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-23 15:14:03 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-23 15:14:03 [restartedMain] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-23 15:14:03 [restartedMain] INFO  : HikariPool-1 - Starting...
+2023-03-23 15:14:04 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70b586b0
+2023-03-23 15:14:04 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2023-03-23 15:14:04 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-03-23 15:14:04 [restartedMain] WARN  : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-03-23 15:14:04 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-23 15:14:04 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-23 15:14:05 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-23 15:14:05 [restartedMain] INFO  : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4ff5134a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f5fc614, org.springframework.security.web.context.SecurityContextHolderFilter@1422315c, org.springframework.security.web.header.HeaderWriterFilter@7c02cecd, org.springframework.security.web.authentication.logout.LogoutFilter@2a377eb3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3a37657a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b902f2f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@24dfc5b6, org.springframework.security.web.access.ExceptionTranslationFilter@92e0ed9]
+2023-03-23 15:14:06 [restartedMain] WARN  : Unable to start LiveReload server
+2023-03-23 15:14:07 [restartedMain] INFO  : Eureka HTTP Client uses RestTemplate.
+2023-03-23 15:14:07 [restartedMain] WARN  : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-23 15:14:07 [restartedMain] INFO  : Setting initial instance status as: STARTING
+2023-03-23 15:14:07 [restartedMain] INFO  : Initializing Eureka in region us-east-1
+2023-03-23 15:14:07 [restartedMain] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 15:14:07 [restartedMain] INFO  : Disable delta property : false
+2023-03-23 15:14:07 [restartedMain] INFO  : Single vip registry refresh property : null
+2023-03-23 15:14:07 [restartedMain] INFO  : Force full registry fetch : false
+2023-03-23 15:14:07 [restartedMain] INFO  : Application is null : false
+2023-03-23 15:14:07 [restartedMain] INFO  : Registered Applications size is zero : true
+2023-03-23 15:14:07 [restartedMain] INFO  : Application version is -1: true
+2023-03-23 15:14:07 [restartedMain] INFO  : Getting all instance registry info from the eureka server
+2023-03-23 15:14:08 [restartedMain] INFO  : The response status is 200
+2023-03-23 15:14:08 [restartedMain] INFO  : Starting heartbeat executor: renew interval is: 30
+2023-03-23 15:14:08 [restartedMain] INFO  : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-03-23 15:14:08 [restartedMain] INFO  : Discovery Client initialized at timestamp 1679564648037 with initial instances count: 3
+2023-03-23 15:14:08 [restartedMain] INFO  : Registering application FARMER-SERVICE with eureka with status UP
+2023-03-23 15:14:08 [restartedMain] INFO  : Saw local status change event StatusChangeEvent [timestamp=1679564648044, current=UP, previous=STARTING]
+2023-03-23 15:14:08 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001: registering service...
+2023-03-23 15:14:08 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-4001"]
+2023-03-23 15:14:08 [restartedMain] INFO  : Tomcat started on port(s): 4001 (http) with context path ''
+2023-03-23 15:14:08 [restartedMain] INFO  : Updating port to 4001
+2023-03-23 15:14:08 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001 - registration status: 204
+2023-03-23 15:14:08 [restartedMain] INFO  : Started FarmerServiceApplication in 7.779 seconds (process running for 8.354)
+2023-03-23 15:19:07 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 15:24:07 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 15:29:07 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 15:34:07 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 15:39:07 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 15:44:07 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 15:48:19 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m14s291ms752µs600ns).
+2023-03-23 15:52:51 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 15:57:51 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 16:02:51 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 16:06:19 [http-nio-4001-exec-2] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-23 16:06:19 [http-nio-4001-exec-2] INFO  : Initializing Servlet 'dispatcherServlet'
+2023-03-23 16:06:19 [http-nio-4001-exec-2] INFO  : Completed initialization in 2 ms
+2023-03-23 16:06:19 [http-nio-4001-exec-2] INFO  : Inside the ProductService and getProductProduct Method
+2023-03-23 16:06:35 [http-nio-4001-exec-3] INFO  : Inside the ProductService and getProductProduct Method
+2023-03-23 16:06:59 [http-nio-4001-exec-6] INFO  : Inside the ProductService and getProductProduct Method
+2023-03-23 16:07:00 [http-nio-4001-exec-7] INFO  : Inside the ProductService and getProductProduct Method
+2023-03-23 16:07:51 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 16:09:50 [http-nio-4001-exec-4] INFO  : Inside the ProductService and getProductProduct Method
+2023-03-23 16:11:18 [http-nio-4001-exec-5] WARN  : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.ust.kishon.Controller.ProductController
+2023-03-23 16:11:18 [http-nio-4001-exec-5] WARN  : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.ust.kishon.Controller.FarmerController
+2023-03-23 16:11:18 [http-nio-4001-exec-5] INFO  : Init duration for springdoc-openapi is: 329 ms
+2023-03-23 16:11:52 [http-nio-4001-exec-3] INFO  : Inside the FarmerService and getfarmerById Method
+2023-03-23 16:12:02 [http-nio-4001-exec-10] INFO  : Inside the FarmerService and getfarmerById Method
+2023-03-23 16:12:05 [http-nio-4001-exec-1] INFO  : Inside the FarmerService and getfarmerById Method
+2023-03-23 16:12:51 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 16:13:14 [http-nio-4001-exec-8] INFO  : Inside the ProductService and getProductProduct Method
+2023-03-23 16:13:22 [http-nio-4001-exec-9] INFO  : Inside the ProductService and getProductProduct Method
+2023-03-23 16:13:35 [http-nio-4001-exec-2] INFO  : Inside the FarmerService and getfarmerById Method
+2023-03-23 16:13:47 [http-nio-4001-exec-3] INFO  : Inside the FarmerService and getfarmerById Method
+2023-03-23 16:13:52 [http-nio-4001-exec-10] INFO  : Inside the FarmerService and getfarmerById Method
+2023-03-23 16:13:59 [http-nio-4001-exec-1] INFO  : Inside the ProductService and getProductProduct Method
+2023-03-23 16:14:16 [http-nio-4001-exec-4] INFO  : Inside the ProductService and getProductProduct Method
+2023-03-23 16:15:03 [http-nio-4001-exec-9] INFO  : Inside the ProductService and getProductProduct Method
+2023-03-23 16:15:05 [http-nio-4001-exec-2] INFO  : Inside the ProductService and getProductProduct Method
+2023-03-23 16:15:06 [http-nio-4001-exec-3] INFO  : Inside the ProductService and getProductProduct Method
+2023-03-23 16:15:06 [http-nio-4001-exec-10] INFO  : Inside the ProductService and getProductProduct Method
+2023-03-23 16:17:03 [http-nio-4001-exec-8] INFO  : Inside the ProductService and getProductProduct Method
+2023-03-23 16:17:23 [http-nio-4001-exec-2] INFO  : Inside the FarmerService and getfarmerById Method
+2023-03-23 16:17:49 [http-nio-4001-exec-10] INFO  : Inside the FarmerService and getfarmerById Method
+2023-03-23 16:17:51 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 16:17:59 [http-nio-4001-exec-6] INFO  : Inside the ProductService and getProductProduct Method
+2023-03-23 16:22:51 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 16:27:51 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 16:32:51 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-23 16:37:51 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration

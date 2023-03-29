@@ -5,6 +5,8 @@ import com.ust.app.model.Product;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
 
@@ -23,5 +25,10 @@ public interface FarmerRestConsumer
     @GetMapping("/product/getProductById/{productId}")
     public Product getProductById(@PathVariable Integer productId);
 
+    @GetMapping("farmer/getallfarmers")
+    public List<Farmer> getAllFarmersData();
+
+    @PutMapping("product/updateProduct/{productId}")
+    public Product updateProduct(@PathVariable int productId, @RequestBody Product product);
 
 }

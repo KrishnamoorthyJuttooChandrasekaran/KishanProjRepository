@@ -1,0 +1,18 @@
+2023-03-24 02:35:09 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h56m17s782ms22µs400ns).
+2023-03-24 11:07:54 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h32m49s768ms628µs400ns).
+2023-03-24 11:09:29 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 11:14:29 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 11:19:29 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 11:24:29 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 11:29:29 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 11:34:29 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 11:39:29 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 11:44:29 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 11:49:29 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 11:54:29 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 11:59:29 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 12:04:29 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 12:09:29 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 12:14:29 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 12:19:29 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 19:42:56 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h23m31s912ms959µs400ns).

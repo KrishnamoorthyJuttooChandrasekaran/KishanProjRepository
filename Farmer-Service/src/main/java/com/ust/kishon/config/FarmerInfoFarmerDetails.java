@@ -12,9 +12,9 @@ import java.util.stream.Collectors;
 
 public class FarmerInfoFarmerDetails implements UserDetails {
 
-    private String username;
-    private String password;
-    private List<GrantedAuthority> authorities;
+    private final String username;
+    private final String password;
+    private final List<GrantedAuthority> authorities;
 
     public FarmerInfoFarmerDetails(Farmer farmerInfo) {
         username=farmerInfo.getUsername();

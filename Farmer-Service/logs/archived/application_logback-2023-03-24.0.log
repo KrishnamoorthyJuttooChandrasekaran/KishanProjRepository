@@ -1,0 +1,17 @@
+2023-03-24 02:35:07 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h56m17s777ms725µs700ns).
+2023-03-24 11:07:52 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h32m49s781ms850µs900ns).
+2023-03-24 11:10:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 11:15:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 11:20:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 11:25:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 11:30:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 11:35:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 11:40:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 11:45:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 11:50:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 11:55:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 12:00:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 12:05:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 12:10:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 12:15:54 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-24 19:42:55 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h23m31s894ms305µs800ns).

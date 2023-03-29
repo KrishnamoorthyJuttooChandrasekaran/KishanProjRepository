@@ -1,0 +1,396 @@
+2023-03-20 06:40:20 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1d10h51m34s48ms597µs900ns).
+2023-03-20 06:41:21 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-20 11:59:34 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h14m14s406ms306µs400ns).
+2023-03-20 12:00:05 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-20 12:05:06 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-20 12:10:06 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-20 12:15:06 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-20 12:51:27 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m52s280ms365µs).
+2023-03-20 12:53:28 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-20 12:58:28 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-20 13:03:28 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-20 13:08:28 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-20 13:13:28 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-20 13:18:28 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-20 13:23:28 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-20 18:37:20 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h11m52s735ms519µs500ns).
+2023-03-20 18:39:03 [SpringApplicationShutdownHook] INFO  : Unregistering application FARMER-SERVICE with eureka with status DOWN
+2023-03-20 18:39:03 [SpringApplicationShutdownHook] INFO  : Saw local status change event StatusChangeEvent [timestamp=1679317743215, current=DOWN, previous=UP]
+2023-03-20 18:39:03 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001: registering service...
+2023-03-20 18:39:03 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001 - registration status: 204
+2023-03-20 18:39:03 [SpringApplicationShutdownHook] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-20 18:39:03 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2023-03-20 18:39:03 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
+2023-03-20 18:39:03 [SpringApplicationShutdownHook] INFO  : Shutting down DiscoveryClient ...
+2023-03-20 18:39:06 [SpringApplicationShutdownHook] INFO  : Unregistering ...
+2023-03-20 18:39:06 [SpringApplicationShutdownHook] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001 - deregister  status: 200
+2023-03-20 18:39:06 [SpringApplicationShutdownHook] INFO  : Completed shut down of DiscoveryClient
+2023-03-20 18:39:21 [background-preinit] INFO  : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-20 18:39:21 [restartedMain] INFO  : Starting FarmerServiceApplication using Java 17.0.1 with PID 11884 (C:\Java_Workspace\KishanProjRepository\Farmer-Service\target\classes started by 233107 in C:\Java_Workspace\KishanProjRepository\Farmer-Service)
+2023-03-20 18:39:21 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-03-20 18:39:21 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-20 18:39:21 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-20 18:39:22 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-20 18:39:23 [restartedMain] INFO  : Finished Spring Data repository scanning in 132 ms. Found 2 JPA repository interfaces.
+2023-03-20 18:39:23 [restartedMain] INFO  : BeanFactory id=e8c548ff-03c6-3d0e-b304-4271003107e9
+2023-03-20 18:39:24 [restartedMain] INFO  : Tomcat initialized with port(s): 4001 (http)
+2023-03-20 18:39:24 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-4001"]
+2023-03-20 18:39:24 [restartedMain] INFO  : Starting service [Tomcat]
+2023-03-20 18:39:24 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-03-20 18:39:24 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2023-03-20 18:39:24 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 3000 ms
+2023-03-20 18:39:24 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-20 18:39:24 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-20 18:39:24 [restartedMain] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-20 18:39:25 [restartedMain] INFO  : HikariPool-1 - Starting...
+2023-03-20 18:39:25 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@513cf013
+2023-03-20 18:39:25 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2023-03-20 18:39:25 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-03-20 18:39:25 [restartedMain] WARN  : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-03-20 18:39:27 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 18:39:27 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-20 18:39:29 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-20 18:39:29 [restartedMain] INFO  : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@58067cfe, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2db517e1, org.springframework.security.web.context.SecurityContextHolderFilter@20911342, org.springframework.security.web.header.HeaderWriterFilter@23c29034, org.springframework.security.web.authentication.logout.LogoutFilter@65542dfb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@396db48, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@545e0e07, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@27b7b9f2, org.springframework.security.web.access.ExceptionTranslationFilter@6d5b2a39]
+2023-03-20 18:39:34 [restartedMain] INFO  : LiveReload server is running on port 35729
+2023-03-20 18:39:35 [restartedMain] INFO  : Eureka HTTP Client uses RestTemplate.
+2023-03-20 18:39:35 [restartedMain] WARN  : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-20 18:39:35 [restartedMain] INFO  : Setting initial instance status as: STARTING
+2023-03-20 18:39:36 [restartedMain] INFO  : Initializing Eureka in region us-east-1
+2023-03-20 18:39:36 [restartedMain] INFO  : Resolving eureka endpoints via configuration
+2023-03-20 18:39:36 [restartedMain] INFO  : Disable delta property : false
+2023-03-20 18:39:36 [restartedMain] INFO  : Single vip registry refresh property : null
+2023-03-20 18:39:36 [restartedMain] INFO  : Force full registry fetch : false
+2023-03-20 18:39:36 [restartedMain] INFO  : Application is null : false
+2023-03-20 18:39:36 [restartedMain] INFO  : Registered Applications size is zero : true
+2023-03-20 18:39:36 [restartedMain] INFO  : Application version is -1: true
+2023-03-20 18:39:36 [restartedMain] INFO  : Getting all instance registry info from the eureka server
+2023-03-20 18:39:36 [restartedMain] INFO  : The response status is 200
+2023-03-20 18:39:36 [restartedMain] INFO  : Starting heartbeat executor: renew interval is: 30
+2023-03-20 18:39:36 [restartedMain] INFO  : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-03-20 18:39:36 [restartedMain] INFO  : Discovery Client initialized at timestamp 1679317776941 with initial instances count: 2
+2023-03-20 18:39:36 [restartedMain] INFO  : Registering application FARMER-SERVICE with eureka with status UP
+2023-03-20 18:39:36 [restartedMain] INFO  : Saw local status change event StatusChangeEvent [timestamp=1679317776957, current=UP, previous=STARTING]
+2023-03-20 18:39:36 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA:FARMER-SERVICE:4001: registering service...
+2023-03-20 18:39:36 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-4001"]
+2023-03-20 18:39:37 [restartedMain] INFO  : Tomcat started on port(s): 4001 (http) with context path ''
+2023-03-20 18:39:37 [restartedMain] INFO  : Updating port to 4001
+2023-03-20 18:39:37 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA:FARMER-SERVICE:4001 - registration status: 204
+2023-03-20 18:39:37 [restartedMain] INFO  : Started FarmerServiceApplication in 17.263 seconds (process running for 18.017)
+2023-03-20 18:39:38 [http-nio-4001-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-20 18:39:38 [http-nio-4001-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2023-03-20 18:39:38 [http-nio-4001-exec-1] INFO  : Completed initialization in 1 ms
+2023-03-20 18:39:39 [http-nio-4001-exec-5] WARN  : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.ust.kishon.Controller.ProductController
+2023-03-20 18:39:39 [http-nio-4001-exec-5] WARN  : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.ust.kishon.Controller.FarmerController
+2023-03-20 18:39:39 [http-nio-4001-exec-5] INFO  : Init duration for springdoc-openapi is: 879 ms
+2023-03-20 18:43:02 [http-nio-4001-exec-8] INFO  : Inside the FarmerService and getfarmerById Method
+2023-03-20 18:43:02 [http-nio-4001-exec-8] WARN  : Resolved [com.ust.kishon.Exception.FarmerNotFoundException: Farmer not found with Id : 1]
+2023-03-20 18:43:19 [http-nio-4001-exec-5] INFO  : Inside the FarmerService and getfarmerById Method
+2023-03-20 18:44:36 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-20 18:46:53 [SpringApplicationShutdownHook] INFO  : Unregistering application FARMER-SERVICE with eureka with status DOWN
+2023-03-20 18:46:53 [SpringApplicationShutdownHook] INFO  : Saw local status change event StatusChangeEvent [timestamp=1679318213851, current=DOWN, previous=UP]
+2023-03-20 18:46:53 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA:FARMER-SERVICE:4001: registering service...
+2023-03-20 18:46:53 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA:FARMER-SERVICE:4001 - registration status: 204
+2023-03-20 18:46:53 [SpringApplicationShutdownHook] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-20 18:46:53 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2023-03-20 18:46:53 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
+2023-03-20 18:46:53 [SpringApplicationShutdownHook] INFO  : Shutting down DiscoveryClient ...
+2023-03-20 18:46:56 [SpringApplicationShutdownHook] INFO  : Unregistering ...
+2023-03-20 18:46:56 [SpringApplicationShutdownHook] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA:FARMER-SERVICE:4001 - deregister  status: 200
+2023-03-20 18:46:56 [SpringApplicationShutdownHook] INFO  : Completed shut down of DiscoveryClient
+2023-03-20 18:47:11 [background-preinit] INFO  : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-20 18:47:11 [restartedMain] INFO  : Starting FarmerServiceApplication using Java 17.0.1 with PID 10220 (C:\Java_Workspace\KishanProjRepository\Farmer-Service\target\classes started by 233107 in C:\Java_Workspace\KishanProjRepository\Farmer-Service)
+2023-03-20 18:47:11 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-03-20 18:47:11 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-20 18:47:11 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-20 18:47:13 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-20 18:47:13 [restartedMain] INFO  : Finished Spring Data repository scanning in 363 ms. Found 2 JPA repository interfaces.
+2023-03-20 18:47:14 [restartedMain] INFO  : BeanFactory id=e8c548ff-03c6-3d0e-b304-4271003107e9
+2023-03-20 18:47:16 [restartedMain] INFO  : Tomcat initialized with port(s): 4001 (http)
+2023-03-20 18:47:16 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-4001"]
+2023-03-20 18:47:16 [restartedMain] INFO  : Starting service [Tomcat]
+2023-03-20 18:47:16 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-03-20 18:47:17 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2023-03-20 18:47:17 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 6004 ms
+2023-03-20 18:47:17 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-20 18:47:17 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-20 18:47:18 [restartedMain] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-20 18:47:18 [restartedMain] INFO  : HikariPool-1 - Starting...
+2023-03-20 18:47:18 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35f059cc
+2023-03-20 18:47:18 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2023-03-20 18:47:18 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-03-20 18:47:18 [restartedMain] WARN  : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-03-20 18:47:19 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 18:47:19 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-20 18:47:20 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-20 18:47:20 [restartedMain] INFO  : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@27b7b9f2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@76941632, org.springframework.security.web.context.SecurityContextHolderFilter@396db48, org.springframework.security.web.header.HeaderWriterFilter@348c6267, org.springframework.security.web.authentication.logout.LogoutFilter@2a141386, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7cfd1ccd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@400690c2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1d1e7592, org.springframework.security.web.access.ExceptionTranslationFilter@23c29034]
+2023-03-20 18:47:23 [restartedMain] WARN  : Unable to start LiveReload server
+2023-03-20 18:47:23 [restartedMain] INFO  : Eureka HTTP Client uses RestTemplate.
+2023-03-20 18:47:23 [restartedMain] WARN  : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-20 18:47:23 [restartedMain] INFO  : Setting initial instance status as: STARTING
+2023-03-20 18:47:24 [restartedMain] INFO  : Initializing Eureka in region us-east-1
+2023-03-20 18:47:24 [restartedMain] INFO  : Resolving eureka endpoints via configuration
+2023-03-20 18:47:24 [restartedMain] INFO  : Disable delta property : false
+2023-03-20 18:47:24 [restartedMain] INFO  : Single vip registry refresh property : null
+2023-03-20 18:47:24 [restartedMain] INFO  : Force full registry fetch : false
+2023-03-20 18:47:24 [restartedMain] INFO  : Application is null : false
+2023-03-20 18:47:24 [restartedMain] INFO  : Registered Applications size is zero : true
+2023-03-20 18:47:24 [restartedMain] INFO  : Application version is -1: true
+2023-03-20 18:47:24 [restartedMain] INFO  : Getting all instance registry info from the eureka server
+2023-03-20 18:47:24 [restartedMain] INFO  : The response status is 200
+2023-03-20 18:47:24 [restartedMain] INFO  : Starting heartbeat executor: renew interval is: 30
+2023-03-20 18:47:24 [restartedMain] INFO  : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-03-20 18:47:24 [restartedMain] INFO  : Discovery Client initialized at timestamp 1679318244649 with initial instances count: 1
+2023-03-20 18:47:24 [restartedMain] INFO  : Registering application FARMER-SERVICE with eureka with status UP
+2023-03-20 18:47:24 [restartedMain] INFO  : Saw local status change event StatusChangeEvent [timestamp=1679318244660, current=UP, previous=STARTING]
+2023-03-20 18:47:24 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA:FARMER-SERVICE:4001: registering service...
+2023-03-20 18:47:24 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-4001"]
+2023-03-20 18:47:24 [restartedMain] INFO  : Tomcat started on port(s): 4001 (http) with context path ''
+2023-03-20 18:47:24 [restartedMain] INFO  : Updating port to 4001
+2023-03-20 18:47:24 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA:FARMER-SERVICE:4001 - registration status: 204
+2023-03-20 18:47:25 [restartedMain] INFO  : Started FarmerServiceApplication in 14.971 seconds (process running for 15.951)
+2023-03-20 18:47:37 [http-nio-4001-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-20 18:47:37 [http-nio-4001-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2023-03-20 18:47:37 [http-nio-4001-exec-1] INFO  : Completed initialization in 3 ms
+2023-03-20 18:47:37 [http-nio-4001-exec-9] WARN  : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.ust.kishon.Controller.ProductController
+2023-03-20 18:47:38 [http-nio-4001-exec-9] WARN  : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.ust.kishon.Controller.FarmerController
+2023-03-20 18:47:38 [http-nio-4001-exec-9] INFO  : Init duration for springdoc-openapi is: 408 ms
+2023-03-20 18:49:11 [SpringApplicationShutdownHook] INFO  : Unregistering application FARMER-SERVICE with eureka with status DOWN
+2023-03-20 18:49:11 [SpringApplicationShutdownHook] INFO  : Saw local status change event StatusChangeEvent [timestamp=1679318351554, current=DOWN, previous=UP]
+2023-03-20 18:49:11 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA:FARMER-SERVICE:4001: registering service...
+2023-03-20 18:49:11 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA:FARMER-SERVICE:4001 - registration status: 204
+2023-03-20 18:49:11 [SpringApplicationShutdownHook] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-20 18:49:11 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2023-03-20 18:49:11 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
+2023-03-20 18:49:11 [SpringApplicationShutdownHook] INFO  : Shutting down DiscoveryClient ...
+2023-03-20 18:49:14 [SpringApplicationShutdownHook] INFO  : Unregistering ...
+2023-03-20 18:49:14 [SpringApplicationShutdownHook] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA:FARMER-SERVICE:4001 - deregister  status: 200
+2023-03-20 18:49:14 [SpringApplicationShutdownHook] INFO  : Completed shut down of DiscoveryClient
+2023-03-20 18:49:26 [background-preinit] INFO  : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-20 18:49:26 [restartedMain] INFO  : Starting FarmerServiceApplication using Java 17.0.1 with PID 4204 (C:\Java_Workspace\KishanProjRepository\Farmer-Service\target\classes started by 233107 in C:\Java_Workspace\KishanProjRepository\Farmer-Service)
+2023-03-20 18:49:26 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-03-20 18:49:26 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-20 18:49:26 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-20 18:49:27 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-20 18:49:28 [restartedMain] INFO  : Finished Spring Data repository scanning in 169 ms. Found 2 JPA repository interfaces.
+2023-03-20 18:49:28 [restartedMain] INFO  : BeanFactory id=e8c548ff-03c6-3d0e-b304-4271003107e9
+2023-03-20 18:49:29 [restartedMain] INFO  : Tomcat initialized with port(s): 4001 (http)
+2023-03-20 18:49:29 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-4001"]
+2023-03-20 18:49:29 [restartedMain] INFO  : Starting service [Tomcat]
+2023-03-20 18:49:29 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-03-20 18:49:29 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2023-03-20 18:49:29 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 3381 ms
+2023-03-20 18:49:30 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-20 18:49:30 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-20 18:49:30 [restartedMain] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-20 18:49:30 [restartedMain] INFO  : HikariPool-1 - Starting...
+2023-03-20 18:49:31 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21ff8742
+2023-03-20 18:49:31 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2023-03-20 18:49:31 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-03-20 18:49:31 [restartedMain] WARN  : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-03-20 18:49:32 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 18:49:32 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-20 18:49:34 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-20 18:49:34 [restartedMain] INFO  : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@29c04c84, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3220b3ab, org.springframework.security.web.context.SecurityContextHolderFilter@318e24e5, org.springframework.security.web.header.HeaderWriterFilter@757f5f11, org.springframework.security.web.authentication.logout.LogoutFilter@189163cf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@45c4ed7c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@51ca8330, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@62e7c0f1, org.springframework.security.web.access.ExceptionTranslationFilter@7cfd1ccd]
+2023-03-20 18:49:39 [restartedMain] WARN  : Unable to start LiveReload server
+2023-03-20 18:49:40 [restartedMain] INFO  : Eureka HTTP Client uses RestTemplate.
+2023-03-20 18:49:41 [restartedMain] WARN  : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-20 18:49:41 [restartedMain] INFO  : Setting initial instance status as: STARTING
+2023-03-20 18:49:41 [restartedMain] INFO  : Initializing Eureka in region us-east-1
+2023-03-20 18:49:41 [restartedMain] INFO  : Resolving eureka endpoints via configuration
+2023-03-20 18:49:41 [restartedMain] INFO  : Disable delta property : false
+2023-03-20 18:49:41 [restartedMain] INFO  : Single vip registry refresh property : null
+2023-03-20 18:49:41 [restartedMain] INFO  : Force full registry fetch : false
+2023-03-20 18:49:41 [restartedMain] INFO  : Application is null : false
+2023-03-20 18:49:41 [restartedMain] INFO  : Registered Applications size is zero : true
+2023-03-20 18:49:41 [restartedMain] INFO  : Application version is -1: true
+2023-03-20 18:49:41 [restartedMain] INFO  : Getting all instance registry info from the eureka server
+2023-03-20 18:49:42 [restartedMain] INFO  : The response status is 200
+2023-03-20 18:49:42 [restartedMain] INFO  : Starting heartbeat executor: renew interval is: 30
+2023-03-20 18:49:42 [restartedMain] INFO  : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-03-20 18:49:43 [restartedMain] INFO  : Discovery Client initialized at timestamp 1679318383001 with initial instances count: 2
+2023-03-20 18:49:43 [restartedMain] INFO  : Registering application FARMER-SERVICE with eureka with status UP
+2023-03-20 18:49:43 [restartedMain] INFO  : Saw local status change event StatusChangeEvent [timestamp=1679318383022, current=UP, previous=STARTING]
+2023-03-20 18:49:43 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA:FARMER-SERVICE:4001: registering service...
+2023-03-20 18:49:43 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-4001"]
+2023-03-20 18:49:43 [restartedMain] INFO  : Tomcat started on port(s): 4001 (http) with context path ''
+2023-03-20 18:49:43 [restartedMain] INFO  : Updating port to 4001
+2023-03-20 18:49:43 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA:FARMER-SERVICE:4001 - registration status: 204
+2023-03-20 18:49:43 [restartedMain] INFO  : Started FarmerServiceApplication in 18.579 seconds (process running for 19.39)
+2023-03-20 18:54:42 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-20 18:55:08 [http-nio-4001-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-20 18:55:08 [http-nio-4001-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2023-03-20 18:55:08 [http-nio-4001-exec-1] INFO  : Completed initialization in 4 ms
+2023-03-20 18:57:11 [http-nio-4001-exec-2] WARN  : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.ust.kishon.Controller.ProductController
+2023-03-20 18:57:11 [http-nio-4001-exec-2] WARN  : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.ust.kishon.Controller.FarmerController
+2023-03-20 18:57:11 [http-nio-4001-exec-2] INFO  : Init duration for springdoc-openapi is: 916 ms
+2023-03-20 18:57:26 [http-nio-4001-exec-3] INFO  : Inside the FarmerService and getProductDetailUsingFarmer Method
+2023-03-20 18:58:48 [SpringApplicationShutdownHook] INFO  : Unregistering application FARMER-SERVICE with eureka with status DOWN
+2023-03-20 18:58:48 [SpringApplicationShutdownHook] INFO  : Saw local status change event StatusChangeEvent [timestamp=1679318928290, current=DOWN, previous=UP]
+2023-03-20 18:58:48 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA:FARMER-SERVICE:4001: registering service...
+2023-03-20 18:58:48 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA:FARMER-SERVICE:4001 - registration status: 204
+2023-03-20 18:58:48 [SpringApplicationShutdownHook] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-20 18:58:48 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2023-03-20 18:58:48 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
+2023-03-20 18:58:48 [SpringApplicationShutdownHook] INFO  : Shutting down DiscoveryClient ...
+2023-03-20 18:58:51 [SpringApplicationShutdownHook] INFO  : Unregistering ...
+2023-03-20 18:58:51 [SpringApplicationShutdownHook] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA:FARMER-SERVICE:4001 - deregister  status: 200
+2023-03-20 18:58:51 [SpringApplicationShutdownHook] INFO  : Completed shut down of DiscoveryClient
+2023-03-20 18:59:01 [background-preinit] INFO  : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-20 18:59:01 [restartedMain] INFO  : Starting FarmerServiceApplication using Java 17.0.1 with PID 6160 (C:\Java_Workspace\KishanProjRepository\Farmer-Service\target\classes started by 233107 in C:\Java_Workspace\KishanProjRepository\Farmer-Service)
+2023-03-20 18:59:01 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-03-20 18:59:02 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-20 18:59:02 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-20 18:59:03 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-20 18:59:03 [restartedMain] INFO  : Finished Spring Data repository scanning in 177 ms. Found 2 JPA repository interfaces.
+2023-03-20 18:59:03 [restartedMain] INFO  : BeanFactory id=e8c548ff-03c6-3d0e-b304-4271003107e9
+2023-03-20 18:59:04 [restartedMain] INFO  : Tomcat initialized with port(s): 4001 (http)
+2023-03-20 18:59:04 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-4001"]
+2023-03-20 18:59:04 [restartedMain] INFO  : Starting service [Tomcat]
+2023-03-20 18:59:04 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-03-20 18:59:04 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2023-03-20 18:59:04 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 2493 ms
+2023-03-20 18:59:04 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-20 18:59:04 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-20 18:59:04 [restartedMain] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-20 18:59:05 [restartedMain] INFO  : HikariPool-1 - Starting...
+2023-03-20 18:59:05 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23dc0b14
+2023-03-20 18:59:05 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2023-03-20 18:59:05 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-03-20 18:59:05 [restartedMain] WARN  : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-03-20 18:59:06 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 18:59:06 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-20 18:59:07 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-20 18:59:07 [restartedMain] INFO  : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6436e75, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@38b66b5b, org.springframework.security.web.context.SecurityContextHolderFilter@588b05f5, org.springframework.security.web.header.HeaderWriterFilter@2ee44a17, org.springframework.security.web.authentication.logout.LogoutFilter@2241569a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@737a153b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d5b2a39, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@26fc53ea, org.springframework.security.web.access.ExceptionTranslationFilter@73135218]
+2023-03-20 18:59:08 [restartedMain] WARN  : Unable to start LiveReload server
+2023-03-20 18:59:09 [restartedMain] INFO  : Eureka HTTP Client uses RestTemplate.
+2023-03-20 18:59:09 [restartedMain] WARN  : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-20 18:59:09 [restartedMain] INFO  : Setting initial instance status as: STARTING
+2023-03-20 18:59:09 [restartedMain] INFO  : Initializing Eureka in region us-east-1
+2023-03-20 18:59:09 [restartedMain] INFO  : Resolving eureka endpoints via configuration
+2023-03-20 18:59:09 [restartedMain] INFO  : Disable delta property : false
+2023-03-20 18:59:09 [restartedMain] INFO  : Single vip registry refresh property : null
+2023-03-20 18:59:09 [restartedMain] INFO  : Force full registry fetch : false
+2023-03-20 18:59:09 [restartedMain] INFO  : Application is null : false
+2023-03-20 18:59:09 [restartedMain] INFO  : Registered Applications size is zero : true
+2023-03-20 18:59:09 [restartedMain] INFO  : Application version is -1: true
+2023-03-20 18:59:09 [restartedMain] INFO  : Getting all instance registry info from the eureka server
+2023-03-20 18:59:09 [restartedMain] INFO  : The response status is 200
+2023-03-20 18:59:09 [restartedMain] INFO  : Starting heartbeat executor: renew interval is: 30
+2023-03-20 18:59:09 [restartedMain] INFO  : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-03-20 18:59:09 [restartedMain] INFO  : Discovery Client initialized at timestamp 1679318949876 with initial instances count: 2
+2023-03-20 18:59:09 [restartedMain] INFO  : Registering application FARMER-SERVICE with eureka with status UP
+2023-03-20 18:59:09 [restartedMain] INFO  : Saw local status change event StatusChangeEvent [timestamp=1679318949885, current=UP, previous=STARTING]
+2023-03-20 18:59:09 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA:FARMER-SERVICE:4001: registering service...
+2023-03-20 18:59:09 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-4001"]
+2023-03-20 18:59:09 [restartedMain] INFO  : Tomcat started on port(s): 4001 (http) with context path ''
+2023-03-20 18:59:09 [restartedMain] INFO  : Updating port to 4001
+2023-03-20 18:59:09 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA:FARMER-SERVICE:4001 - registration status: 204
+2023-03-20 18:59:10 [restartedMain] INFO  : Started FarmerServiceApplication in 8.968 seconds (process running for 9.754)
+2023-03-20 18:59:13 [http-nio-4001-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-20 18:59:13 [http-nio-4001-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2023-03-20 18:59:13 [http-nio-4001-exec-1] INFO  : Completed initialization in 1 ms
+2023-03-20 18:59:13 [http-nio-4001-exec-1] INFO  : Inside the FarmerService and getProductDetailUsingFarmer Method
+2023-03-20 18:59:23 [http-nio-4001-exec-2] INFO  : Inside the FarmerService and getProductDetailUsingFarmer Method
+2023-03-20 19:00:05 [http-nio-4001-exec-5] INFO  : Inside the ProductService and getProductProduct Method
+2023-03-20 19:00:05 [http-nio-4001-exec-5] ERROR : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0]->com.ust.kishon.Entity.Product["farmer"]->com.ust.kishon.Entity.Farmer$HibernateProxy$IwjwmQBE["hibernateLazyInitializer"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1306)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:408)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:53)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:30)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:733)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:733)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:145)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:107)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:400)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1568)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1061)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:483)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:103)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:297)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:245)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1010)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:902)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:884)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:351)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)

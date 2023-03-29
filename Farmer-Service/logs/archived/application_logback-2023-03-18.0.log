@@ -1,0 +1,8 @@
+2023-03-18 19:15:54 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1d21h8m24s330ms387µs100ns).
+2023-03-18 19:19:55 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-18 19:24:55 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-18 19:29:55 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-18 19:34:55 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-18 19:37:20 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55s465ms640µs400ns).
+2023-03-18 19:40:21 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-18 19:45:21 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration

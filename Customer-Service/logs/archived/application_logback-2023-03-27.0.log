@@ -1,0 +1,722 @@
+2023-03-27 11:20:25 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2d6h59m53s826ms948µs600ns).
+2023-03-27 11:22:28 [SpringApplicationShutdownHook] INFO  : Unregistering application CUSTOMER-SERVICE with eureka with status DOWN
+2023-03-27 11:22:28 [SpringApplicationShutdownHook] INFO  : Saw local status change event StatusChangeEvent [timestamp=1679896348863, current=DOWN, previous=UP]
+2023-03-27 11:22:28 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000: registering service...
+2023-03-27 11:22:28 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000 - registration status: 204
+2023-03-27 11:22:29 [SpringApplicationShutdownHook] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-27 11:22:30 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2023-03-27 11:22:30 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
+2023-03-27 11:22:30 [SpringApplicationShutdownHook] INFO  : Shutting down DiscoveryClient ...
+2023-03-27 11:22:33 [DiscoveryClient-0] WARN  : task supervisor shutting down, can't accept the task
+2023-03-27 11:22:33 [SpringApplicationShutdownHook] INFO  : Unregistering ...
+2023-03-27 11:22:33 [SpringApplicationShutdownHook] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000 - deregister  status: 200
+2023-03-27 11:22:33 [SpringApplicationShutdownHook] INFO  : Completed shut down of DiscoveryClient
+2023-03-27 20:16:19 [background-preinit] INFO  : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-27 20:16:19 [main] INFO  : Starting CustomerServiceApplicationTests using Java 17.0.1 with PID 19252 (started by 233107 in C:\Java_Workspace\KishanProjRepository\Customer-Service)
+2023-03-27 20:16:19 [main] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-03-27 20:16:21 [main] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-27 20:16:21 [main] INFO  : Finished Spring Data repository scanning in 149 ms. Found 1 JPA repository interfaces.
+2023-03-27 20:16:21 [main] INFO  : BeanFactory id=991be853-5795-3a05-b133-2bb95ffbf8da
+2023-03-27 20:16:22 [main] INFO  : Bean 'com.ust.app.controller.FarmerRestConsumer' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-27 20:16:22 [main] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-27 20:16:22 [main] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-27 20:16:22 [main] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-27 20:16:23 [main] INFO  : HikariPool-1 - Starting...
+2023-03-27 20:16:23 [main] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45f95ac0
+2023-03-27 20:16:23 [main] INFO  : HikariPool-1 - Start completed.
+2023-03-27 20:16:23 [main] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-03-27 20:16:23 [main] WARN  : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-03-27 20:16:24 [main] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-27 20:16:24 [main] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-27 20:16:25 [main] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-27 20:16:25 [main] INFO  : For 'FARMER-SERVICE' URL not provided. Will try picking an instance via load-balancing.
+2023-03-27 20:16:25 [main] INFO  : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@35c95587, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@828e2d8, org.springframework.security.web.context.SecurityContextHolderFilter@44252e9b, org.springframework.security.web.header.HeaderWriterFilter@2c3df478, org.springframework.security.web.authentication.logout.LogoutFilter@4b60ff1c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@788a7567, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62672ad5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@43e9eddf, org.springframework.security.web.access.ExceptionTranslationFilter@4177d427]
+2023-03-27 20:16:28 [main] INFO  : Eureka HTTP Client uses RestTemplate.
+2023-03-27 20:16:28 [main] WARN  : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-27 20:16:28 [main] INFO  : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-03-27 20:16:28 [main] INFO  : Setting initial instance status as: STARTING
+2023-03-27 20:16:28 [main] INFO  : Initializing Eureka in region us-east-1
+2023-03-27 20:16:28 [main] INFO  : Resolving eureka endpoints via configuration
+2023-03-27 20:16:28 [main] INFO  : Disable delta property : false
+2023-03-27 20:16:28 [main] INFO  : Single vip registry refresh property : null
+2023-03-27 20:16:28 [main] INFO  : Force full registry fetch : false
+2023-03-27 20:16:28 [main] INFO  : Application is null : false
+2023-03-27 20:16:28 [main] INFO  : Registered Applications size is zero : true
+2023-03-27 20:16:28 [main] INFO  : Application version is -1: true
+2023-03-27 20:16:28 [main] INFO  : Getting all instance registry info from the eureka server
+2023-03-27 20:16:29 [main] INFO  : The response status is 200
+2023-03-27 20:16:29 [main] INFO  : Starting heartbeat executor: renew interval is: 30
+2023-03-27 20:16:29 [main] INFO  : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-03-27 20:16:29 [main] INFO  : Discovery Client initialized at timestamp 1679928389028 with initial instances count: 1
+2023-03-27 20:16:29 [main] INFO  : Registering application CUSTOMER-SERVICE with eureka with status UP
+2023-03-27 20:16:29 [main] INFO  : Saw local status change event StatusChangeEvent [timestamp=1679928389034, current=UP, previous=STARTING]
+2023-03-27 20:16:29 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000: registering service...
+2023-03-27 20:16:29 [main] INFO  : Started CustomerServiceApplicationTests in 10.357 seconds (process running for 11.442)
+2023-03-27 20:16:29 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000 - registration status: 204
+2023-03-27 20:16:29 [SpringApplicationShutdownHook] INFO  : Unregistering application CUSTOMER-SERVICE with eureka with status DOWN
+2023-03-27 20:16:29 [SpringApplicationShutdownHook] INFO  : Saw local status change event StatusChangeEvent [timestamp=1679928389364, current=DOWN, previous=UP]
+2023-03-27 20:16:29 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000: registering service...
+2023-03-27 20:16:29 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000 - registration status: 204
+2023-03-27 20:16:29 [SpringApplicationShutdownHook] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-27 20:16:29 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2023-03-27 20:16:29 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
+2023-03-27 20:16:29 [SpringApplicationShutdownHook] INFO  : Shutting down DiscoveryClient ...
+2023-03-27 20:16:32 [SpringApplicationShutdownHook] INFO  : Unregistering ...
+2023-03-27 20:16:32 [SpringApplicationShutdownHook] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000 - deregister  status: 200
+2023-03-27 20:16:32 [SpringApplicationShutdownHook] INFO  : Completed shut down of DiscoveryClient
+2023-03-27 20:41:43 [background-preinit] INFO  : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-27 20:41:43 [restartedMain] INFO  : Starting CustomerServiceApplication using Java 17.0.1 with PID 19428 (C:\Java_Workspace\KishanProjRepository\Customer-Service\target\classes started by 233107 in C:\Java_Workspace\KishanProjRepository\Customer-Service)
+2023-03-27 20:41:43 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-03-27 20:41:43 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-27 20:41:43 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-27 20:41:45 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-27 20:41:45 [restartedMain] INFO  : Finished Spring Data repository scanning in 211 ms. Found 1 JPA repository interfaces.
+2023-03-27 20:41:45 [restartedMain] INFO  : BeanFactory id=1d109723-4307-363f-8d57-7eca35c8c2e4
+2023-03-27 20:41:46 [restartedMain] INFO  : Bean 'com.ust.app.controller.FarmerRestConsumer' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-27 20:41:48 [restartedMain] INFO  : Tomcat initialized with port(s): 4000 (http)
+2023-03-27 20:41:48 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-4000"]
+2023-03-27 20:41:48 [restartedMain] INFO  : Starting service [Tomcat]
+2023-03-27 20:41:48 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-03-27 20:41:48 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2023-03-27 20:41:48 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 4927 ms
+2023-03-27 20:41:48 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-27 20:41:48 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-27 20:41:49 [restartedMain] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-27 20:41:49 [restartedMain] INFO  : HikariPool-1 - Starting...
+2023-03-27 20:41:50 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43287439
+2023-03-27 20:41:50 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2023-03-27 20:41:50 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-03-27 20:41:50 [restartedMain] WARN  : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-03-27 20:41:52 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-27 20:41:52 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-27 20:41:52 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-27 20:41:52 [restartedMain] WARN  : Unable to start LiveReload server
+2023-03-27 20:41:52 [restartedMain] INFO  : For 'FARMER-SERVICE' URL not provided. Will try picking an instance via load-balancing.
+2023-03-27 20:41:53 [restartedMain] INFO  : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1b425c3e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d5ed0b9, org.springframework.security.web.context.SecurityContextHolderFilter@7b385406, org.springframework.security.web.header.HeaderWriterFilter@61fd5df1, org.springframework.security.web.authentication.logout.LogoutFilter@6051747b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@11dbbc02, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@77258a3d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@775075c2, org.springframework.security.web.access.ExceptionTranslationFilter@44a1049c]
+2023-03-27 20:41:56 [restartedMain] INFO  : Eureka HTTP Client uses RestTemplate.
+2023-03-27 20:41:56 [restartedMain] WARN  : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-27 20:41:56 [restartedMain] INFO  : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-03-27 20:41:56 [restartedMain] INFO  : Setting initial instance status as: STARTING
+2023-03-27 20:41:56 [restartedMain] INFO  : Initializing Eureka in region us-east-1
+2023-03-27 20:41:56 [restartedMain] INFO  : Resolving eureka endpoints via configuration
+2023-03-27 20:41:56 [restartedMain] INFO  : Disable delta property : false
+2023-03-27 20:41:56 [restartedMain] INFO  : Single vip registry refresh property : null
+2023-03-27 20:41:56 [restartedMain] INFO  : Force full registry fetch : false
+2023-03-27 20:41:56 [restartedMain] INFO  : Application is null : false
+2023-03-27 20:41:56 [restartedMain] INFO  : Registered Applications size is zero : true
+2023-03-27 20:41:56 [restartedMain] INFO  : Application version is -1: true
+2023-03-27 20:41:56 [restartedMain] INFO  : Getting all instance registry info from the eureka server
+2023-03-27 20:41:56 [restartedMain] INFO  : The response status is 200
+2023-03-27 20:41:56 [restartedMain] INFO  : Starting heartbeat executor: renew interval is: 30
+2023-03-27 20:41:56 [restartedMain] INFO  : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-03-27 20:41:56 [restartedMain] INFO  : Discovery Client initialized at timestamp 1679929916766 with initial instances count: 1
+2023-03-27 20:41:56 [restartedMain] INFO  : Registering application CUSTOMER-SERVICE with eureka with status UP
+2023-03-27 20:41:56 [restartedMain] INFO  : Saw local status change event StatusChangeEvent [timestamp=1679929916773, current=UP, previous=STARTING]
+2023-03-27 20:41:56 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000: registering service...
+2023-03-27 20:41:56 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-4000"]
+2023-03-27 20:41:56 [restartedMain] INFO  : Tomcat started on port(s): 4000 (http) with context path ''
+2023-03-27 20:41:56 [restartedMain] INFO  : Updating port to 4000
+2023-03-27 20:41:56 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000 - registration status: 204
+2023-03-27 20:41:57 [restartedMain] INFO  : Started CustomerServiceApplication in 14.779 seconds (process running for 15.542)
+2023-03-27 20:42:15 [http-nio-4000-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-27 20:42:15 [http-nio-4000-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2023-03-27 20:42:15 [http-nio-4000-exec-1] INFO  : Completed initialization in 5 ms
+2023-03-27 20:42:16 [http-nio-4000-exec-9] WARN  : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.ust.app.controller.CustomerController
+2023-03-27 20:42:17 [http-nio-4000-exec-9] INFO  : Init duration for springdoc-openapi is: 1446 ms
+2023-03-27 20:42:26 [http-nio-4000-exec-8] INFO  : Inside the CustomerService and getAllCustomer Method
+2023-03-27 20:44:48 [http-nio-4000-exec-6] INFO  : Inside the CustomerService and RegisterCustomer Method
+2023-03-27 20:46:36 [http-nio-4000-exec-10] INFO  : Inside the CustomerService and updateCustomerDet Method
+2023-03-27 20:46:41 [http-nio-4000-exec-10] ERROR : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.orm.jpa.JpaSystemException: identifier of an instance of com.ust.app.entity.Customer was altered from 0 to 2] with root cause
+org.hibernate.HibernateException: identifier of an instance of com.ust.app.entity.Customer was altered from 0 to 2
+	at org.hibernate.event.internal.DefaultFlushEntityEventListener.checkId(DefaultFlushEntityEventListener.java:87)
+	at org.hibernate.event.internal.DefaultFlushEntityEventListener.getValues(DefaultFlushEntityEventListener.java:171)
+	at org.hibernate.event.internal.DefaultFlushEntityEventListener.onFlushEntity(DefaultFlushEntityEventListener.java:130)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.flushEntities(AbstractFlushingEventListener.java:214)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.flushEverythingToExecutions(AbstractFlushingEventListener.java:90)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:38)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1425)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:477)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2234)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1930)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:163)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:218)
+	at jdk.proxy3/jdk.proxy3.$Proxy158.save(Unknown Source)
+	at com.ust.app.service.CustomerService.updateCustomerDet(CustomerService.java:210)
+	at com.ust.app.controller.CustomerController.updateCustomer(CustomerController.java:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1010)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:924)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:734)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:884)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.ObservationFilterChainDecorator$FilterObservation$SimpleFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:399)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:297)
+	at org.springframework.security.web.ObservationFilterChainDecorator.lambda$wrapSecured$0(ObservationFilterChainDecorator.java:79)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:125)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:173)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:173)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:173)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:173)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:173)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:173)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:173)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:173)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$0(ObservationFilterChainDecorator.java:280)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:170)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:351)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-03-27 20:46:56 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-27 20:47:13 [http-nio-4000-exec-7] INFO  : Inside the CustomerService and updateCustomerDet Method
+2023-03-27 20:49:19 [http-nio-4000-exec-2] INFO  : Inside the CustomerService and getAllCustomer Method
+2023-03-27 20:49:46 [http-nio-4000-exec-6] INFO  : Inside the CustomerService and getCustomer Method
+2023-03-27 20:51:56 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-27 20:53:25 [http-nio-4000-exec-8] INFO  : Inside the CustomerService and getCustomer Method
+2023-03-27 20:56:56 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-27 21:00:33 [SpringApplicationShutdownHook] INFO  : Unregistering application CUSTOMER-SERVICE with eureka with status DOWN
+2023-03-27 21:00:33 [SpringApplicationShutdownHook] INFO  : Saw local status change event StatusChangeEvent [timestamp=1679931033990, current=DOWN, previous=UP]
+2023-03-27 21:00:33 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000: registering service...
+2023-03-27 21:00:33 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000 - registration status: 204
+2023-03-27 21:00:35 [SpringApplicationShutdownHook] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-27 21:00:35 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2023-03-27 21:00:35 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
+2023-03-27 21:00:35 [SpringApplicationShutdownHook] INFO  : Shutting down DiscoveryClient ...
+2023-03-27 21:00:38 [SpringApplicationShutdownHook] INFO  : Unregistering ...
+2023-03-27 21:00:38 [SpringApplicationShutdownHook] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000 - deregister  status: 200
+2023-03-27 21:00:38 [SpringApplicationShutdownHook] INFO  : Completed shut down of DiscoveryClient
+2023-03-27 21:00:49 [background-preinit] INFO  : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-27 21:00:49 [restartedMain] INFO  : Starting CustomerServiceApplication using Java 17.0.1 with PID 16508 (C:\Java_Workspace\KishanProjRepository\Customer-Service\target\classes started by 233107 in C:\Java_Workspace\KishanProjRepository\Customer-Service)
+2023-03-27 21:00:49 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-03-27 21:00:49 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-27 21:00:49 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-27 21:00:51 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-27 21:00:51 [restartedMain] INFO  : Finished Spring Data repository scanning in 170 ms. Found 1 JPA repository interfaces.
+2023-03-27 21:00:52 [restartedMain] INFO  : BeanFactory id=1d109723-4307-363f-8d57-7eca35c8c2e4
+2023-03-27 21:00:52 [restartedMain] INFO  : Bean 'com.ust.app.controller.FarmerRestConsumer' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-27 21:00:53 [restartedMain] INFO  : Tomcat initialized with port(s): 4000 (http)
+2023-03-27 21:00:53 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-4000"]
+2023-03-27 21:00:53 [restartedMain] INFO  : Starting service [Tomcat]
+2023-03-27 21:00:53 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-03-27 21:00:53 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2023-03-27 21:00:53 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 4450 ms
+2023-03-27 21:00:54 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-27 21:00:54 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-27 21:00:54 [restartedMain] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-27 21:00:54 [restartedMain] INFO  : HikariPool-1 - Starting...
+2023-03-27 21:00:54 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f6b4f60
+2023-03-27 21:00:54 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2023-03-27 21:00:54 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-03-27 21:00:54 [restartedMain] WARN  : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-03-27 21:00:55 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-27 21:00:55 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-27 21:00:57 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-27 21:00:57 [restartedMain] WARN  : Unable to start LiveReload server
+2023-03-27 21:00:57 [restartedMain] INFO  : For 'FARMER-SERVICE' URL not provided. Will try picking an instance via load-balancing.
+2023-03-27 21:00:58 [restartedMain] INFO  : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@48cf7b42, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@26ae3b17, org.springframework.security.web.context.SecurityContextHolderFilter@531a3bf5, org.springframework.security.web.header.HeaderWriterFilter@41796b65, org.springframework.security.web.authentication.logout.LogoutFilter@4e8468bb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@34aa0c7a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@29c4eead, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@38c747be, org.springframework.security.web.access.ExceptionTranslationFilter@75de56f9]
+2023-03-27 21:01:00 [restartedMain] INFO  : Eureka HTTP Client uses RestTemplate.
+2023-03-27 21:01:00 [restartedMain] WARN  : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-27 21:01:00 [restartedMain] INFO  : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-03-27 21:01:00 [restartedMain] INFO  : Setting initial instance status as: STARTING
+2023-03-27 21:01:00 [restartedMain] INFO  : Initializing Eureka in region us-east-1
+2023-03-27 21:01:00 [restartedMain] INFO  : Resolving eureka endpoints via configuration
+2023-03-27 21:01:00 [restartedMain] INFO  : Disable delta property : false
+2023-03-27 21:01:00 [restartedMain] INFO  : Single vip registry refresh property : null
+2023-03-27 21:01:00 [restartedMain] INFO  : Force full registry fetch : false
+2023-03-27 21:01:00 [restartedMain] INFO  : Application is null : false
+2023-03-27 21:01:00 [restartedMain] INFO  : Registered Applications size is zero : true
+2023-03-27 21:01:00 [restartedMain] INFO  : Application version is -1: true
+2023-03-27 21:01:00 [restartedMain] INFO  : Getting all instance registry info from the eureka server
+2023-03-27 21:01:01 [restartedMain] INFO  : The response status is 200
+2023-03-27 21:01:01 [restartedMain] INFO  : Starting heartbeat executor: renew interval is: 30
+2023-03-27 21:01:01 [restartedMain] INFO  : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-03-27 21:01:01 [restartedMain] INFO  : Discovery Client initialized at timestamp 1679931061614 with initial instances count: 2
+2023-03-27 21:01:01 [restartedMain] INFO  : Registering application CUSTOMER-SERVICE with eureka with status UP
+2023-03-27 21:01:01 [restartedMain] INFO  : Saw local status change event StatusChangeEvent [timestamp=1679931061627, current=UP, previous=STARTING]
+2023-03-27 21:01:01 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-4000"]
+2023-03-27 21:01:01 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000: registering service...
+2023-03-27 21:01:01 [restartedMain] INFO  : Tomcat started on port(s): 4000 (http) with context path ''
+2023-03-27 21:01:01 [restartedMain] INFO  : Updating port to 4000
+2023-03-27 21:01:01 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000 - registration status: 204
+2023-03-27 21:01:01 [restartedMain] INFO  : Started CustomerServiceApplication in 13.403 seconds (process running for 14.14)
+2023-03-27 21:01:05 [http-nio-4000-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-27 21:01:05 [http-nio-4000-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2023-03-27 21:01:05 [http-nio-4000-exec-1] INFO  : Completed initialization in 2 ms
+2023-03-27 21:01:05 [http-nio-4000-exec-1] ERROR : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.ust.app.model.Product.getProductId()" because the return value of "com.ust.app.model.CartDetails.getProduct()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.ust.app.model.Product.getProductId()" because the return value of "com.ust.app.model.CartDetails.getProduct()" is null
+	at com.ust.app.controller.CustomerController.viewCart(CustomerController.java:148)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1010)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:902)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:884)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.ObservationFilterChainDecorator$FilterObservation$SimpleFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:399)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:297)
+	at org.springframework.security.web.ObservationFilterChainDecorator.lambda$wrapSecured$0(ObservationFilterChainDecorator.java:79)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:125)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:173)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:173)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:173)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:173)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:173)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:173)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:173)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:173)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$0(ObservationFilterChainDecorator.java:280)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:170)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:351)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-03-27 21:02:28 [http-nio-4000-exec-2] INFO  : Inside the CustomerService and getCustomer Method
+2023-03-27 21:03:34 [SpringApplicationShutdownHook] INFO  : Unregistering application CUSTOMER-SERVICE with eureka with status DOWN
+2023-03-27 21:03:34 [SpringApplicationShutdownHook] INFO  : Saw local status change event StatusChangeEvent [timestamp=1679931214623, current=DOWN, previous=UP]
+2023-03-27 21:03:34 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000: registering service...
+2023-03-27 21:03:34 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000 - registration status: 204
+2023-03-27 21:03:35 [SpringApplicationShutdownHook] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-27 21:03:35 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2023-03-27 21:03:35 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
+2023-03-27 21:03:35 [SpringApplicationShutdownHook] INFO  : Shutting down DiscoveryClient ...
+2023-03-27 21:03:48 [background-preinit] INFO  : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-27 21:03:48 [restartedMain] INFO  : Starting CustomerServiceApplication using Java 17.0.1 with PID 24228 (C:\Java_Workspace\KishanProjRepository\Customer-Service\target\classes started by 233107 in C:\Java_Workspace\KishanProjRepository\Customer-Service)
+2023-03-27 21:03:48 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-03-27 21:03:48 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-27 21:03:48 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-27 21:03:50 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-27 21:03:50 [restartedMain] INFO  : Finished Spring Data repository scanning in 153 ms. Found 1 JPA repository interfaces.
+2023-03-27 21:03:50 [restartedMain] INFO  : BeanFactory id=1d109723-4307-363f-8d57-7eca35c8c2e4
+2023-03-27 21:03:50 [restartedMain] INFO  : Bean 'com.ust.app.controller.FarmerRestConsumer' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-27 21:03:51 [restartedMain] INFO  : Tomcat initialized with port(s): 4000 (http)
+2023-03-27 21:03:51 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-4000"]
+2023-03-27 21:03:51 [restartedMain] INFO  : Starting service [Tomcat]
+2023-03-27 21:03:51 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-03-27 21:03:51 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2023-03-27 21:03:51 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 3130 ms
+2023-03-27 21:03:52 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-27 21:03:52 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-27 21:03:52 [restartedMain] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-27 21:03:52 [restartedMain] INFO  : HikariPool-1 - Starting...
+2023-03-27 21:03:52 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@772a2a93
+2023-03-27 21:03:52 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2023-03-27 21:03:52 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-03-27 21:03:52 [restartedMain] WARN  : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-03-27 21:03:53 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-27 21:03:53 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-27 21:03:55 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-27 21:03:55 [restartedMain] WARN  : Unable to start LiveReload server
+2023-03-27 21:03:55 [restartedMain] INFO  : For 'FARMER-SERVICE' URL not provided. Will try picking an instance via load-balancing.
+2023-03-27 21:03:56 [restartedMain] INFO  : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@12c0cae7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@52d130d0, org.springframework.security.web.context.SecurityContextHolderFilter@4e7a65e2, org.springframework.security.web.header.HeaderWriterFilter@548876b6, org.springframework.security.web.authentication.logout.LogoutFilter@6e4f2b72, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6fb5799d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@692bb299, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@56ecdd6d, org.springframework.security.web.access.ExceptionTranslationFilter@1cf9f4d8]
+2023-03-27 21:04:01 [restartedMain] INFO  : Eureka HTTP Client uses RestTemplate.
+2023-03-27 21:04:01 [restartedMain] WARN  : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-27 21:04:01 [restartedMain] INFO  : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-03-27 21:04:01 [restartedMain] INFO  : Setting initial instance status as: STARTING
+2023-03-27 21:04:02 [restartedMain] INFO  : Initializing Eureka in region us-east-1
+2023-03-27 21:04:02 [restartedMain] INFO  : Resolving eureka endpoints via configuration
+2023-03-27 21:04:02 [restartedMain] INFO  : Disable delta property : false
+2023-03-27 21:04:02 [restartedMain] INFO  : Single vip registry refresh property : null
+2023-03-27 21:04:02 [restartedMain] INFO  : Force full registry fetch : false
+2023-03-27 21:04:02 [restartedMain] INFO  : Application is null : false
+2023-03-27 21:04:02 [restartedMain] INFO  : Registered Applications size is zero : true
+2023-03-27 21:04:02 [restartedMain] INFO  : Application version is -1: true
+2023-03-27 21:04:02 [restartedMain] INFO  : Getting all instance registry info from the eureka server
+2023-03-27 21:04:02 [restartedMain] INFO  : The response status is 200
+2023-03-27 21:04:02 [restartedMain] INFO  : Starting heartbeat executor: renew interval is: 30
+2023-03-27 21:04:02 [restartedMain] INFO  : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-03-27 21:04:02 [restartedMain] INFO  : Discovery Client initialized at timestamp 1679931242269 with initial instances count: 3
+2023-03-27 21:04:02 [restartedMain] INFO  : Registering application CUSTOMER-SERVICE with eureka with status UP
+2023-03-27 21:04:02 [restartedMain] INFO  : Saw local status change event StatusChangeEvent [timestamp=1679931242276, current=UP, previous=STARTING]
+2023-03-27 21:04:02 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000: registering service...
+2023-03-27 21:04:02 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-4000"]
+2023-03-27 21:04:02 [restartedMain] INFO  : Tomcat started on port(s): 4000 (http) with context path ''
+2023-03-27 21:04:02 [restartedMain] INFO  : Updating port to 4000
+2023-03-27 21:04:02 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000 - registration status: 204
+2023-03-27 21:04:02 [restartedMain] INFO  : Started CustomerServiceApplication in 14.728 seconds (process running for 15.388)
+2023-03-27 21:04:08 [http-nio-4000-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-27 21:04:08 [http-nio-4000-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2023-03-27 21:04:08 [http-nio-4000-exec-1] INFO  : Completed initialization in 5 ms
+2023-03-27 21:04:08 [http-nio-4000-exec-1] ERROR : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.ust.app.model.Product.getProductId()" because the return value of "com.ust.app.model.CartDetails.getProduct()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.ust.app.model.Product.getProductId()" because the return value of "com.ust.app.model.CartDetails.getProduct()" is null
+	at com.ust.app.controller.CustomerController.viewCart(CustomerController.java:148)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1010)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:902)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:884)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.ObservationFilterChainDecorator$FilterObservation$SimpleFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:399)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:297)
+	at org.springframework.security.web.ObservationFilterChainDecorator.lambda$wrapSecured$0(ObservationFilterChainDecorator.java:79)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:125)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:173)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:173)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:173)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:173)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:173)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:173)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:173)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:173)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:186)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$0(ObservationFilterChainDecorator.java:280)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:170)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:134)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:351)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-03-27 21:04:13 [http-nio-4000-exec-2] INFO  : Inside the CustomerService and getCustomer Method
+2023-03-27 21:05:24 [SpringApplicationShutdownHook] INFO  : Unregistering application CUSTOMER-SERVICE with eureka with status DOWN
+2023-03-27 21:05:24 [SpringApplicationShutdownHook] INFO  : Saw local status change event StatusChangeEvent [timestamp=1679931324917, current=DOWN, previous=UP]
+2023-03-27 21:05:24 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000: registering service...
+2023-03-27 21:05:24 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000 - registration status: 204
+2023-03-27 21:05:25 [SpringApplicationShutdownHook] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-27 21:05:26 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2023-03-27 21:05:26 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
+2023-03-27 21:05:26 [SpringApplicationShutdownHook] INFO  : Shutting down DiscoveryClient ...
+2023-03-27 21:05:29 [SpringApplicationShutdownHook] INFO  : Unregistering ...
+2023-03-27 21:05:29 [SpringApplicationShutdownHook] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000 - deregister  status: 200
+2023-03-27 21:05:29 [SpringApplicationShutdownHook] INFO  : Completed shut down of DiscoveryClient
+2023-03-27 21:05:41 [background-preinit] INFO  : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-27 21:05:41 [restartedMain] INFO  : Starting CustomerServiceApplication using Java 17.0.1 with PID 21300 (C:\Java_Workspace\KishanProjRepository\Customer-Service\target\classes started by 233107 in C:\Java_Workspace\KishanProjRepository\Customer-Service)
+2023-03-27 21:05:41 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-03-27 21:05:42 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-27 21:05:42 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-27 21:05:43 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-27 21:05:43 [restartedMain] INFO  : Finished Spring Data repository scanning in 150 ms. Found 1 JPA repository interfaces.
+2023-03-27 21:05:43 [restartedMain] INFO  : BeanFactory id=1d109723-4307-363f-8d57-7eca35c8c2e4
+2023-03-27 21:05:44 [restartedMain] INFO  : Bean 'com.ust.app.controller.FarmerRestConsumer' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-27 21:05:44 [restartedMain] INFO  : Tomcat initialized with port(s): 4000 (http)
+2023-03-27 21:05:44 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-4000"]
+2023-03-27 21:05:44 [restartedMain] INFO  : Starting service [Tomcat]
+2023-03-27 21:05:44 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-03-27 21:05:44 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2023-03-27 21:05:44 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 2967 ms
+2023-03-27 21:05:45 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-27 21:05:45 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-27 21:05:45 [restartedMain] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-27 21:05:45 [restartedMain] INFO  : HikariPool-1 - Starting...
+2023-03-27 21:05:45 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3989f809
+2023-03-27 21:05:45 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2023-03-27 21:05:46 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-03-27 21:05:46 [restartedMain] WARN  : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-03-27 21:05:46 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-27 21:05:46 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-27 21:05:47 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-27 21:05:47 [restartedMain] WARN  : Unable to start LiveReload server
+2023-03-27 21:05:47 [restartedMain] INFO  : For 'FARMER-SERVICE' URL not provided. Will try picking an instance via load-balancing.
+2023-03-27 21:05:48 [restartedMain] INFO  : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2ca744ce, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@35e232d9, org.springframework.security.web.context.SecurityContextHolderFilter@3c6dada6, org.springframework.security.web.header.HeaderWriterFilter@6d6979a3, org.springframework.security.web.authentication.logout.LogoutFilter@7127d16, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@564ed880, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6051747b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@27f21815, org.springframework.security.web.access.ExceptionTranslationFilter@74e38f2b]
+2023-03-27 21:05:50 [restartedMain] INFO  : Eureka HTTP Client uses RestTemplate.
+2023-03-27 21:05:50 [restartedMain] WARN  : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-27 21:05:50 [restartedMain] INFO  : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-03-27 21:05:50 [restartedMain] INFO  : Setting initial instance status as: STARTING
+2023-03-27 21:05:50 [restartedMain] INFO  : Initializing Eureka in region us-east-1
+2023-03-27 21:05:50 [restartedMain] INFO  : Resolving eureka endpoints via configuration
+2023-03-27 21:05:50 [restartedMain] INFO  : Disable delta property : false
+2023-03-27 21:05:50 [restartedMain] INFO  : Single vip registry refresh property : null
+2023-03-27 21:05:50 [restartedMain] INFO  : Force full registry fetch : false
+2023-03-27 21:05:50 [restartedMain] INFO  : Application is null : false
+2023-03-27 21:05:50 [restartedMain] INFO  : Registered Applications size is zero : true
+2023-03-27 21:05:50 [restartedMain] INFO  : Application version is -1: true
+2023-03-27 21:05:50 [restartedMain] INFO  : Getting all instance registry info from the eureka server
+2023-03-27 21:05:51 [restartedMain] INFO  : The response status is 200
+2023-03-27 21:05:51 [restartedMain] INFO  : Starting heartbeat executor: renew interval is: 30
+2023-03-27 21:05:51 [restartedMain] INFO  : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-03-27 21:05:51 [restartedMain] INFO  : Discovery Client initialized at timestamp 1679931351017 with initial instances count: 2
+2023-03-27 21:05:51 [restartedMain] INFO  : Registering application CUSTOMER-SERVICE with eureka with status UP
+2023-03-27 21:05:51 [restartedMain] INFO  : Saw local status change event StatusChangeEvent [timestamp=1679931351023, current=UP, previous=STARTING]
+2023-03-27 21:05:51 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000: registering service...
+2023-03-27 21:05:51 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-4000"]
+2023-03-27 21:05:51 [restartedMain] INFO  : Tomcat started on port(s): 4000 (http) with context path ''
+2023-03-27 21:05:51 [restartedMain] INFO  : Updating port to 4000
+2023-03-27 21:05:51 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000 - registration status: 204
+2023-03-27 21:05:51 [restartedMain] INFO  : Started CustomerServiceApplication in 10.077 seconds (process running for 10.854)
+2023-03-27 21:05:54 [http-nio-4000-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-27 21:05:54 [http-nio-4000-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2023-03-27 21:05:54 [http-nio-4000-exec-1] INFO  : Completed initialization in 12 ms
+2023-03-27 21:05:55 [http-nio-4000-exec-1] INFO  : Inside the CustomerService and getCustomer Method
+2023-03-27 21:10:50 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-27 21:15:50 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-27 21:20:50 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-27 21:25:50 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-27 21:27:09 [SpringApplicationShutdownHook] INFO  : Unregistering application CUSTOMER-SERVICE with eureka with status DOWN
+2023-03-27 21:27:09 [SpringApplicationShutdownHook] INFO  : Saw local status change event StatusChangeEvent [timestamp=1679932629099, current=DOWN, previous=UP]
+2023-03-27 21:27:09 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000: registering service...
+2023-03-27 21:27:09 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000 - registration status: 204
+2023-03-27 21:27:10 [SpringApplicationShutdownHook] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-27 21:27:10 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2023-03-27 21:27:10 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
+2023-03-27 21:27:10 [SpringApplicationShutdownHook] INFO  : Shutting down DiscoveryClient ...
+2023-03-27 21:27:13 [SpringApplicationShutdownHook] INFO  : Unregistering ...
+2023-03-27 21:27:13 [SpringApplicationShutdownHook] INFO  : DiscoveryClient_CUSTOMER-SERVICE/C877LMAA.ustr.com:CUSTOMER-SERVICE:4000 - deregister  status: 200
+2023-03-27 21:27:13 [SpringApplicationShutdownHook] INFO  : Completed shut down of DiscoveryClient

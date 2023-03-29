@@ -25,9 +25,9 @@ public class Cart {
         return product;
     }
 
-    public Product removeProduct(Product product) {
+    public Product removeProduct(Product product, int quantity) {
         this.products.remove(product);
-        this.totalPrice -= product.getProductPrice() * product.getProductQty();
+        this.totalPrice -= product.getProductPrice() * quantity;
         return product;
     }
 
