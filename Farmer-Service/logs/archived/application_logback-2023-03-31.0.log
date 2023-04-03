@@ -1,25 +1,11 @@
-2023-04-03 13:44:02 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16h58m28s167ms293µs400ns).
-2023-04-03 13:46:36 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
-2023-04-03 13:51:36 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
-2023-04-03 13:56:36 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
-2023-04-03 14:01:36 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
-2023-04-03 14:06:36 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
-2023-04-03 14:12:22 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
-2023-04-03 14:12:47 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m15s220ms768µs500ns).
-2023-04-03 14:17:22 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
-2023-04-03 14:22:22 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
-2023-04-03 14:27:22 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
-2023-04-03 14:32:22 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
-2023-04-03 14:37:22 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
-2023-04-03 14:42:22 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
-2023-04-03 16:41:53 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h59m4s883ms247µs600ns).
-2023-04-03 16:53:51 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m57s873ms390µs800ns).
-2023-04-03 16:56:33 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
-2023-04-03 17:01:33 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
-2023-04-03 17:03:49 [SpringApplicationShutdownHook] INFO  : Unregistering application FARMER-SERVICE with eureka with status DOWN
-2023-04-03 17:03:49 [SpringApplicationShutdownHook] INFO  : Saw local status change event StatusChangeEvent [timestamp=1680521629878, current=DOWN, previous=UP]
-2023-04-03 17:03:49 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001: registering service...
-2023-04-03 17:03:49 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on POST request for "http://localhost:8761/eureka/apps/FARMER-SERVICE": localhost:8761 failed to respond stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/FARMER-SERVICE": localhost:8761 failed to respond
+2023-03-31 07:47:30 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h31m36s770ms317µs900ns).
+2023-03-31 10:14:30 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h27m4s936ms198µs400ns).
+2023-03-31 10:17:04 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 10:19:57 [http-nio-4001-exec-1] INFO  : Inside the FarmerService and getfarmerById Method
+2023-03-31 10:21:56 [SpringApplicationShutdownHook] INFO  : Unregistering application FARMER-SERVICE with eureka with status DOWN
+2023-03-31 10:21:56 [SpringApplicationShutdownHook] INFO  : Saw local status change event StatusChangeEvent [timestamp=1680238316833, current=DOWN, previous=UP]
+2023-03-31 10:21:56 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001: registering service...
+2023-03-31 10:21:56 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on POST request for "http://localhost:8761/eureka/apps/FARMER-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/FARMER-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
 	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
@@ -43,19 +29,21 @@
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-Caused by: org.apache.hc.core5.http.NoHttpResponseException: localhost:8761 failed to respond
-	at org.apache.hc.core5.http.impl.io.DefaultHttpResponseParser.createConnectionClosedException(DefaultHttpResponseParser.java:87)
-	at org.apache.hc.core5.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:243)
-	at org.apache.hc.core5.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:53)
-	at org.apache.hc.core5.http.impl.io.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:298)
-	at org.apache.hc.core5.http.impl.io.HttpRequestExecutor.execute(HttpRequestExecutor.java:175)
-	at org.apache.hc.core5.http.impl.io.HttpRequestExecutor.execute(HttpRequestExecutor.java:218)
-	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager$InternalConnectionEndpoint.execute(PoolingHttpClientConnectionManager.java:583)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.execute(InternalExecRuntime.java:212)
-	at org.apache.hc.client5.http.impl.classic.MainClientExec.execute(MainClientExec.java:105)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
-	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:182)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory$1.run(PlainConnectionSocketFactory.java:87)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:148)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136)
 	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
 	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
 	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:190)
@@ -78,8 +66,8 @@ Caused by: org.apache.hc.core5.http.NoHttpResponseException: localhost:8761 fail
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
 	... 21 more
 
-2023-04-03 17:03:49 [DiscoveryClient-InstanceInfoReplicator-0] WARN  : Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/FARMER-SERVICE": localhost:8761 failed to respond
-2023-04-03 17:03:49 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/FARMER-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/FARMER-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2023-03-31 10:21:56 [DiscoveryClient-InstanceInfoReplicator-0] WARN  : Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/FARMER-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2023-03-31 10:21:56 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/FARMER-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/FARMER-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
 	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
@@ -141,8 +129,8 @@ Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http:
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
 	... 22 more
 
-2023-04-03 17:03:49 [DiscoveryClient-InstanceInfoReplicator-0] WARN  : Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/FARMER-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
-2023-04-03 17:03:49 [DiscoveryClient-InstanceInfoReplicator-0] WARN  : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001 - registration failed Cannot execute request on any known server
+2023-03-31 10:21:56 [DiscoveryClient-InstanceInfoReplicator-0] WARN  : Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/FARMER-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2023-03-31 10:21:56 [DiscoveryClient-InstanceInfoReplicator-0] WARN  : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001 - registration failed Cannot execute request on any known server
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
@@ -158,7 +146,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2023-04-03 17:03:49 [DiscoveryClient-InstanceInfoReplicator-0] WARN  : There was a problem with the instance info replicator
+2023-03-31 10:21:56 [DiscoveryClient-InstanceInfoReplicator-0] WARN  : There was a problem with the instance info replicator
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
@@ -174,12 +162,12 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2023-04-03 17:03:49 [SpringApplicationShutdownHook] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-04-03 17:03:49 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
-2023-04-03 17:03:50 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
-2023-04-03 17:03:50 [SpringApplicationShutdownHook] INFO  : Shutting down DiscoveryClient ...
-2023-04-03 17:03:53 [SpringApplicationShutdownHook] INFO  : Unregistering ...
-2023-04-03 17:03:53 [SpringApplicationShutdownHook] INFO  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2023-03-31 10:21:56 [SpringApplicationShutdownHook] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-31 10:21:56 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2023-03-31 10:21:56 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
+2023-03-31 10:21:56 [SpringApplicationShutdownHook] INFO  : Shutting down DiscoveryClient ...
+2023-03-31 10:22:00 [SpringApplicationShutdownHook] INFO  : Unregistering ...
+2023-03-31 10:22:00 [SpringApplicationShutdownHook] INFO  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
 	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
@@ -259,8 +247,8 @@ Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http:
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
 	... 40 more
 
-2023-04-03 17:03:53 [SpringApplicationShutdownHook] WARN  : Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
-2023-04-03 17:03:53 [SpringApplicationShutdownHook] ERROR : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001 - de-registration failedCannot execute request on any known server
+2023-03-31 10:22:00 [SpringApplicationShutdownHook] WARN  : Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2023-03-31 10:22:00 [SpringApplicationShutdownHook] ERROR : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001 - de-registration failedCannot execute request on any known server
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
@@ -294,4 +282,86 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
 	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:108)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2023-04-03 17:03:53 [SpringApplicationShutdownHook] INFO  : Completed shut down of DiscoveryClient
+2023-03-31 10:22:00 [SpringApplicationShutdownHook] INFO  : Completed shut down of DiscoveryClient
+2023-03-31 10:34:22 [background-preinit] INFO  : HV000001: Hibernate Validator 8.0.0.Final
+2023-03-31 10:34:22 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-31 10:34:24 [restartedMain] INFO  : Fetching config from server at : http://localhost:9296
+2023-03-31 10:34:25 [restartedMain] INFO  : Located environment: name=FARMER-SERVICE, profiles=[default], label=null, version=6e9260a5078c5d7e2aca945bc0b2e8d8e210a46d, state=null
+2023-03-31 10:34:25 [restartedMain] INFO  : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/KrishnamoorthyJuttooChandrasekaran/CloudConfigServer/application.properties'}]
+2023-03-31 10:34:25 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-03-31 10:34:27 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-31 10:34:28 [restartedMain] INFO  : Finished Spring Data repository scanning in 217 ms. Found 2 JPA repository interfaces.
+2023-03-31 10:34:28 [restartedMain] INFO  : BeanFactory id=3a26a876-b005-3c44-9d8b-e75d95ec12e5
+2023-03-31 10:34:29 [restartedMain] INFO  : Tomcat initialized with port(s): 4001 (http)
+2023-03-31 10:34:29 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-4001"]
+2023-03-31 10:34:29 [restartedMain] INFO  : Starting service [Tomcat]
+2023-03-31 10:34:29 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-03-31 10:34:30 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2023-03-31 10:34:30 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 4743 ms
+2023-03-31 10:34:31 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-31 10:34:31 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-31 10:34:31 [restartedMain] WARN  : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-31 10:34:31 [restartedMain] INFO  : HikariPool-1 - Starting...
+2023-03-31 10:34:32 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1101c5b6
+2023-03-31 10:34:32 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2023-03-31 10:34:32 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-03-31 10:34:32 [restartedMain] WARN  : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-03-31 10:34:34 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-31 10:34:34 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-31 10:34:35 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-31 10:34:35 [restartedMain] INFO  : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5ab8bbe8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55693b1, org.springframework.security.web.context.SecurityContextHolderFilter@599f5c4d, org.springframework.security.web.header.HeaderWriterFilter@6542ed1a, org.springframework.security.web.authentication.logout.LogoutFilter@448b86f1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c9fa0ca, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1a657510, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2730fc8d, org.springframework.security.web.access.ExceptionTranslationFilter@20557538]
+2023-03-31 10:34:37 [restartedMain] INFO  : LiveReload server is running on port 35729
+2023-03-31 10:34:38 [restartedMain] INFO  : Eureka HTTP Client uses RestTemplate.
+2023-03-31 10:34:39 [restartedMain] WARN  : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-31 10:34:39 [restartedMain] INFO  : Setting initial instance status as: STARTING
+2023-03-31 10:34:39 [restartedMain] INFO  : Initializing Eureka in region us-east-1
+2023-03-31 10:34:39 [restartedMain] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 10:34:39 [restartedMain] INFO  : Disable delta property : false
+2023-03-31 10:34:39 [restartedMain] INFO  : Single vip registry refresh property : null
+2023-03-31 10:34:39 [restartedMain] INFO  : Force full registry fetch : false
+2023-03-31 10:34:39 [restartedMain] INFO  : Application is null : false
+2023-03-31 10:34:39 [restartedMain] INFO  : Registered Applications size is zero : true
+2023-03-31 10:34:39 [restartedMain] INFO  : Application version is -1: true
+2023-03-31 10:34:39 [restartedMain] INFO  : Getting all instance registry info from the eureka server
+2023-03-31 10:34:39 [restartedMain] INFO  : The response status is 200
+2023-03-31 10:34:39 [restartedMain] INFO  : Starting heartbeat executor: renew interval is: 30
+2023-03-31 10:34:39 [restartedMain] INFO  : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-03-31 10:34:39 [restartedMain] INFO  : Discovery Client initialized at timestamp 1680239079545 with initial instances count: 2
+2023-03-31 10:34:39 [restartedMain] INFO  : Registering application FARMER-SERVICE with eureka with status UP
+2023-03-31 10:34:39 [restartedMain] INFO  : Saw local status change event StatusChangeEvent [timestamp=1680239079554, current=UP, previous=STARTING]
+2023-03-31 10:34:39 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001: registering service...
+2023-03-31 10:34:39 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-4001"]
+2023-03-31 10:34:39 [restartedMain] INFO  : Tomcat started on port(s): 4001 (http) with context path ''
+2023-03-31 10:34:39 [restartedMain] INFO  : Updating port to 4001
+2023-03-31 10:34:39 [DiscoveryClient-InstanceInfoReplicator-0] INFO  : DiscoveryClient_FARMER-SERVICE/C877LMAA.ustr.com:FARMER-SERVICE:4001 - registration status: 204
+2023-03-31 10:34:39 [restartedMain] INFO  : Started FarmerServiceApplication in 18.536 seconds (process running for 19.53)
+2023-03-31 10:39:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 10:44:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 10:49:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 10:54:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 10:59:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 11:04:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 11:09:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 11:14:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 11:19:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 11:24:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 11:29:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 11:34:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 11:39:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 11:44:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 11:49:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 11:54:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 11:59:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 12:04:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 12:09:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 12:14:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 12:19:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 12:24:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 12:29:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 12:34:39 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 12:44:18 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m43s377ms847µs700ns).
+2023-03-31 12:46:52 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 12:51:52 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 13:02:21 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m2s963ms23µs200ns).
+2023-03-31 13:04:25 [AsyncResolver-bootstrap-executor-0] INFO  : Resolving eureka endpoints via configuration
+2023-03-31 14:42:29 [HikariPool-1 housekeeper] WARN  : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h36m8s366ms351µs400ns).

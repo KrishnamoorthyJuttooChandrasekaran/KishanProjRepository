@@ -31,4 +31,11 @@ public interface FarmerRestConsumer
     @PutMapping("product/updateProduct/{productId}")
     public Product updateProduct(@PathVariable int productId, @RequestBody Product product);
 
-}
+    @PutMapping("product/setProductCountAdd/{productId}/{quantity}")
+    public String setproductCountAdd(@PathVariable int productId,@PathVariable int quantity);
+
+    @PutMapping("product/setProductCountRem/{productId}/{quantity}")
+    public String setproductCountRem(@PathVariable int productId,@PathVariable int quantity);
+
+
+    }

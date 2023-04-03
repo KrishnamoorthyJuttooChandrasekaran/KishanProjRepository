@@ -1,0 +1,4 @@
+Eureka 
+Spring Config Server 
+API Gateway
+Other all services

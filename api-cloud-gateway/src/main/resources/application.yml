@@ -11,22 +11,61 @@ spring:
         locator:
           enabled: true
           lowerCaseServiceId: true
+
       routes:
-        - id : FARMER-SERVICE
-          uri : lb://FARMER-SERVICE
+        - id: FARMER-SERVICE
+          uri: http://localhost:4001
           predicates:
             - Path=/farmer/**
-
+            - Method=GET,POST,PUT,DELETE,OPTIONS
+          filters:
+            - name: CircuitBreaker
+              args:
+                  name: ADMIN-SERVICE
+                  fallbackUri: forward:/farmerServiceFallBack
+                  failureRateThreshold: 50
+                  minimumNumberOfCalls: 10
+                  waitDurationInOpenState: 5000
+                  permittedNumberOfCallsInHalfOpenState: 3
+                  slidingWindowSize: 10
+                  recordExceptions:
+                    - java.util.concurrent.TimeoutException
 
         - id: CUSTOMER-SERVICE
-          uri: lb://CUSTOMER-SERVICE
+          uri: http://localhost:4000
           predicates:
             - Path=/customer/**
+            - Method=GET,POST,PUT,DELETE,OPTIONS
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: CUSTOMER-SERVICE
+                fallbackUri: forward:/customerServiceFallBack
+                failureRateThreshold: 50
+                minimumNumberOfCalls: 10
+                waitDurationInOpenState: 5000
+                permittedNumberOfCallsInHalfOpenState: 3
+                slidingWindowSize: 10
+                recordExceptions:
+                  - java.util.concurrent.TimeoutException
 
-        - id : SECURITY-SERVICE
-          uri : lb://SECURITY-SERVICE
+        - id: SECURITY-SERVICE
+          uri: http://localhost:4005
           predicates:
             - Path=/security/**
+            - Method=GET,POST,PUT,DELETE,OPTIONS
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: SECURITY-SERVICE
+                fallbackUri: forward:/securityServiceFallBack
+                failureRateThreshold: 50
+                minimumNumberOfCalls: 10
+                waitDurationInOpenState: 5000
+                permittedNumberOfCallsInHalfOpenState: 3
+                slidingWindowSize: 10
+                recordExceptions:
+                  - java.util.concurrent.TimeoutException
 
 eureka:
   client:

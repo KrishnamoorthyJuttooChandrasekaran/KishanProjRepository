@@ -212,4 +212,18 @@ public class ProductService {
         javaMailSender.send(message);
         return "Product Deleted";
     }
+
+    public String setproductCountAdd(int productId,int quantity) {
+        Product prd =productRepo.findByProductId(productId);
+        prd.setProductQty(prd.getProductQty()-quantity);
+        productRepo.save(prd);
+        return "Success";
+    }
+
+    public String setproductCountRem(int productId, int quantity) {
+        Product prd =productRepo.findByProductId(productId);
+        prd.setProductQty(prd.getProductQty()+quantity);
+        productRepo.save(prd);
+        return "Success";
+    }
 }

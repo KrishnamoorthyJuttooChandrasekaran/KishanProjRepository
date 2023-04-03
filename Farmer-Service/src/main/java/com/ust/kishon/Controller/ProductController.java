@@ -37,6 +37,14 @@ public class ProductController {
         Product _product = productService.getproductById(productId);
         return new ResponseEntity<>(_product, HttpStatus.OK);
     }
+    @PutMapping("/setProductCountAdd/{productId}/{quantity}")
+    public String setproductCountAdd(@PathVariable int productId,@PathVariable int quantity) throws ProductNotFoundException {
+        return productService.setproductCountAdd(productId,quantity);
+    }
+    @PutMapping("/setProductCountRem/{productId}/{quantity}")
+    public String setproductCountRem(@PathVariable int productId,@PathVariable int quantity) throws ProductNotFoundException {
+        return productService.setproductCountRem(productId,quantity);
+    }
 
     @PutMapping("/updateProduct/{productId}")
     public ResponseEntity<Product> updateProduct(@PathVariable("productId") int productId, @RequestBody Product product) throws ProductNotFoundException {

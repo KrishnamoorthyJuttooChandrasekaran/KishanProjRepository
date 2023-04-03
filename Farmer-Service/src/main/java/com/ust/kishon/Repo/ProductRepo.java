@@ -17,4 +17,8 @@ public interface ProductRepo extends JpaRepository<Product,Integer> {
     @Query(value ="select * from product where farmer_id=:farmerId and product_id=:productId",nativeQuery = true)
     Product findByFarmerProductId(@Param("farmerId") int id,@Param("productId") int productId);
 
+    @Query(value ="select * from product where product_id=:id",nativeQuery = true)
+    Product findByProductId(@Param("id") int id);
+
+
 }

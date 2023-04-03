@@ -1,7 +1,6 @@
 package com.ust.app.controller;
 
 
-
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.client.j2se.MatrixToImageWriter;
 import com.google.zxing.common.BitMatrix;
@@ -21,14 +20,15 @@ import lombok.extern.log4j.Log4j2;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.logging.log4j.LogManager;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.core.io.ByteArrayResource;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
+import org.springframework.http.*;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
 
 import java.io.ByteArrayOutputStream;
 import java.util.List;
@@ -43,7 +43,6 @@ public class CustomerController {
     private Cart cart;
 
 
-
     @Autowired
     public CustomerController(Cart cart) {
         this.cart = cart;
@@ -52,7 +51,6 @@ public class CustomerController {
 
     @Autowired
     private JavaMailSender javaMailSender;
-
 
 
     @Autowired
@@ -132,9 +130,14 @@ public class CustomerController {
         cartDetails.setCustomer(customerService.getCustomer(customerId));
         cartDetails.setProduct(consumer.getProductById(productId));
 
+        System.out.println(consumer.getFarmerData(farmerId));
+        System.out.println(customerService.getCustomer(customerId));
+        System.out.println(consumer.getProductById(productId));
+
         Product product = consumer.getProductById(productId);
 
-        cart.addProduct(product, quantity);
+        Product newProduct = cart.addProduct(product,quantity);
+        System.out.println(cart);
         return new ResponseEntity<>(cartDetails, HttpStatus.OK);
     }
 
@@ -144,19 +147,21 @@ public class CustomerController {
 
         Product product = consumer.getProductById(productId);
         cart.removeProduct(product, quantity);
+
+        System.out.println(cartDetails);
         return new ResponseEntity<>("Product Removed you can check in cart", HttpStatus.OK);
     }
 
     @SneakyThrows
     @GetMapping("/buy")
-    public ResponseEntity<Cart> viewCart() {
+    public ResponseEntity<Cart> buy() {
 
 
         String body = "Order Details\n-----------------------------" +
                 "\nProduct ID: " + cartDetails.getProduct().getProductId() +
                 "\nProduct Name: " + cartDetails.getProduct().getProductName() +
                 "\nPrice per kg: " + cartDetails.getProduct().getProductPrice() +
-                "\nProduct Quantity: " + cartDetails.getProduct().getProductQty() +
+                "\nQuantity Ordered: " + cart.getQuantity() +
                 "\nPrice: " + cart.getTotalPrice() +
                 "\n\n\nFarmer Details\n-----------------------------" +
                 "\nFarmer ID: " + cartDetails.getFarmer().getId() +
@@ -213,14 +218,7 @@ public class CustomerController {
         javaMailSender.send(message);
         System.out.println("Mail Sent to Farmer: " + cartDetails.getCustomer().getEmailId());
 
-        System.out.println(consumer.getProductById(cartDetails.getProduct().getProductId()));
-
-        Product product = consumer.getProductById(cartDetails.getProduct().getProductId());
-
-        System.out.println(product.getProductQty());
-        System.out.println();
-
-
+        System.out.println(cartDetails.getProduct().getProductQty()-cart.getQuantity());
         return new ResponseEntity<>(cart, HttpStatus.OK);
     }
 
